@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Question Loading</title>
+</head>
+<body>
+    <h1>Testing Question Data Loading</h1>
+    <div id="results"></div>
+
+    <script src="data/questions-chapter1.js"></script>
+    <script src="data/questions-chapter2.js"></script>
+    <script src="data/questions-chapter3.js"></script>
+    <script src="data/questions-chapter4.js"></script>
+    <script src="data/questions-chapter5.js"></script>
+    <script src="data/questions-chapter6.js"></script>
+
+    <script>
+        const results = document.getElementById('results');
+        let html = '';
+
+        // Check each chapter
+        for (let i = 1; i <= 6; i++) {
+            const varName = `QUIZ_DATA_CHAPTER${i}`;
+            const exists = typeof window[varName] !== 'undefined';
+            const count = exists ? window[varName].questions.length : 0;
+            html += `<p><strong>${varName}</strong>: ${exists ? '✅ LOADED' : '❌ NOT LOADED'} (${count} questions)</p>`;
+        }
+
+        results.innerHTML = html;
+        console.log('All chapter data:', {
+            c1: window.QUIZ_DATA_CHAPTER1 ? window.QUIZ_DATA_CHAPTER1.questions.length : 0,
+            c2: window.QUIZ_DATA_CHAPTER2 ? window.QUIZ_DATA_CHAPTER2.questions.length : 0,
+            c3: window.QUIZ_DATA_CHAPTER3 ? window.QUIZ_DATA_CHAPTER3.questions.length : 0,
+            c4: window.QUIZ_DATA_CHAPTER4 ? window.QUIZ_DATA_CHAPTER4.questions.length : 0,
+            c5: window.QUIZ_DATA_CHAPTER5 ? window.QUIZ_DATA_CHAPTER5.questions.length : 0,
+            c6: window.QUIZ_DATA_CHAPTER6 ? window.QUIZ_DATA_CHAPTER6.questions.length : 0,
+        });
+    </script>
+</body>
+</html>
