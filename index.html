@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Agent Factory Book Quizzes - Interactive Learning Platform for AI-Native Software Development">
+    <meta name="author" content="Agent Factory Quiz Team">
+    <meta name="keywords" content="AI agents, Agent Factory, quiz, general agents, context engineering, spec-driven development, study material">
+    <title>Agent Factory Quizzes - Book Chapter Learning Platform</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75'>📚</text></svg>">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">📚</span>
+                <h1>Agent Factory Quizzes</h1>
+            </div>
+            <nav class="nav-links">
+                <button id="themeToggle" class="theme-toggle" title="Toggle dark mode">🌙</button>
+                <button id="progressBtn" class="nav-btn" title="View progress">📊</button>
+                <button id="aboutBtn" class="nav-btn" title="About this quiz">ℹ️</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="container">
+        <!-- Splash Screen / Welcome -->
+        <section id="welcomeScreen" class="screen active">
+            <div class="welcome-content">
+                <h2>Welcome to Agent Factory Quizzes</h2>
+                <p class="subtitle">Master AI-Native Software Development - Learn from Book Chapters</p>
+
+                <div class="stats-cards">
+                    <div class="stat-card">
+                        <div class="stat-number" id="totalQuestionsCount">0</div>
+                        <div class="stat-label">Total Questions</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Difficulty Levels</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" id="totalChaptersCount">6</div>
+                        <div class="stat-label">Chapters</div>
+                    </div>
+                </div>
+
+                <div class="welcome-options">
+                    <div class="option-group">
+                        <h3>📖 Choose Your Chapter</h3>
+                        <select id="quizSetSelector" class="quiz-set-selector">
+                            <!-- Options populated by JavaScript -->
+                        </select>
+                    </div>
+
+                    <div class="option-group">
+                        <h3>📚 Choose Your Study Mode</h3>
+
+                        <div class="mode-buttons">
+                            <button id="startAllBtn" class="btn btn-primary">
+                                <span>🎯 All Questions</span>
+                                <small id="allQuestionsSmall">0 questions</small>
+                            </button>
+                            <button id="startEasyBtn" class="btn btn-secondary">
+                                <span>✅ Easy Level</span>
+                                <small id="easyQuestionsSmall">0 questions</small>
+                            </button>
+                            <button id="startMediumBtn" class="btn btn-secondary">
+                                <span>⚡ Medium Level</span>
+                                <small id="mediumQuestionsSmall">0 questions</small>
+                            </button>
+                            <button id="startAdvancedBtn" class="btn btn-secondary">
+                                <span>🚀 Advanced Level</span>
+                                <small id="advancedQuestionsSmall">0 questions</small>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="option-group">
+                        <h3>🔍 Filter by Topic</h3>
+                        <div id="topicFilter" class="topic-buttons">
+                            <!-- Topics will be populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="instructions">
+                    <h3>📖 How to Use This Quiz:</h3>
+                    <ul>
+                        <li>Select a chapter to study</li>
+                        <li>Choose a study mode (All, Easy, Medium, or Advanced)</li>
+                        <li>Read each question carefully</li>
+                        <li>Choose the best answer from 4 options</li>
+                        <li>Get immediate feedback with page references</li>
+                        <li>View detailed explanations</li>
+                        <li>Progress is automatically saved</li>
+                        <li>Complete the quiz to see your score and statistics</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz Screen -->
+        <section id="quizScreen" class="screen">
+            <div class="quiz-container">
+                <!-- Quiz Header -->
+                <div class="quiz-header">
+                    <div class="progress-section">
+                        <span id="progressText">Question 0/0</span>
+                        <div class="progress-bar">
+                            <div id="progressFill" class="progress-fill"></div>
+                        </div>
+                    </div>
+                    <div class="quiz-info">
+                        <span id="scoreDisplay">Score: 0%</span>
+                        <button id="quitBtn" class="btn-small btn-outline">Quit</button>
+                    </div>
+                </div>
+
+                <!-- Quiz Toolbar -->
+                <div class="quiz-toolbar">
+                    <select id="difficultyFilter" class="filter-select">
+                        <option value="">All Difficulties</option>
+                        <option value="easy">Easy Only</option>
+                        <option value="medium">Medium Only</option>
+                        <option value="advanced">Advanced Only</option>
+                    </select>
+                    <select id="topicFilter2" class="filter-select">
+                        <option value="">All Topics</option>
+                    </select>
+                    <input type="text" id="searchInput" class="search-input" placeholder="Search questions...">
+                </div>
+
+                <!-- Question Display -->
+                <div class="question-display">
+                    <div class="question-header">
+                        <h2 id="questionText">Question text will appear here</h2>
+                        <div class="question-meta">
+                            <span id="difficultyBadge" class="badge">Easy</span>
+                            <span id="topicBadge" class="badge topic-badge">Topic</span>
+                            <span id="pageRefBadge" class="badge">Page: 0</span>
+                        </div>
+                    </div>
+
+                    <!-- Answer Options -->
+                    <div class="options-container">
+                        <button class="option-btn" data-option="0">
+                            <span class="option-letter">A</span>
+                            <span class="option-text" id="option0"></span>
+                        </button>
+                        <button class="option-btn" data-option="1">
+                            <span class="option-letter">B</span>
+                            <span class="option-text" id="option1"></span>
+                        </button>
+                        <button class="option-btn" data-option="2">
+                            <span class="option-letter">C</span>
+                            <span class="option-text" id="option2"></span>
+                        </button>
+                        <button class="option-btn" data-option="3">
+                            <span class="option-letter">D</span>
+                            <span class="option-text" id="option3"></span>
+                        </button>
+                    </div>
+
+                    <!-- Feedback Section -->
+                    <div id="feedbackSection" class="feedback-section" style="display: none;">
+                        <div id="feedbackContainer" class="feedback-container"></div>
+                    </div>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <div class="quiz-navigation">
+                    <button id="prevBtn" class="btn btn-secondary">← Previous</button>
+                    <button id="skipBtn" class="btn btn-outline">Skip</button>
+                    <button id="nextBtn" class="btn btn-primary">Next →</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results Screen -->
+        <section id="resultsScreen" class="screen">
+            <div class="results-container">
+                <h2>Quiz Complete! 🎉</h2>
+
+                <div class="score-display">
+                    <div class="score-circle">
+                        <div class="score-number" id="finalScore">0%</div>
+                        <div class="score-label">Score</div>
+                    </div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-value" id="correctCount">0</div>
+                        <div class="stat-name">Correct</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="incorrectCount">0</div>
+                        <div class="stat-name">Incorrect</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="skippedCount">0</div>
+                        <div class="stat-name">Skipped</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-value" id="timeSpent">0s</div>
+                        <div class="stat-name">Time</div>
+                    </div>
+                </div>
+
+                <div class="results-charts">
+                    <div class="chart-container">
+                        <h3>Performance by Difficulty</h3>
+                        <div id="difficultyBreakdown" class="breakdown-list"></div>
+                    </div>
+                    <div class="chart-container">
+                        <h3>Performance by Topic</h3>
+                        <div id="topicBreakdown" class="breakdown-list"></div>
+                    </div>
+                </div>
+
+                <div class="results-buttons">
+                    <button id="reviewBtn" class="btn btn-primary">📝 Review Answers</button>
+                    <button id="downloadBtn" class="btn btn-secondary">📥 Download Results</button>
+                    <button id="retakeBtn" class="btn btn-outline">🔄 Retake Quiz</button>
+                    <button id="homeBtn" class="btn btn-outline">🏠 Home</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Review Screen -->
+        <section id="reviewScreen" class="screen">
+            <div class="review-container">
+                <div class="review-header">
+                    <h2>Review Your Answers</h2>
+                    <select id="reviewFilter" class="filter-select">
+                        <option value="">All Questions</option>
+                        <option value="correct">Correct Only</option>
+                        <option value="incorrect">Incorrect Only</option>
+                        <option value="skipped">Skipped</option>
+                    </select>
+                </div>
+
+                <div id="reviewList" class="review-list"></div>
+
+                <div class="review-buttons">
+                    <button id="backToResultsBtn" class="btn btn-secondary">← Back to Results</button>
+                    <button id="homeBtn2" class="btn btn-outline">🏠 Home</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal: Progress -->
+    <div id="progressModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2>Your Progress</h2>
+            <div id="progressDetails"></div>
+        </div>
+    </div>
+
+    <!-- Modal: About -->
+    <div id="aboutModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <h2>About This Quiz</h2>
+            <p>Agent Factory Book Quizzes is an interactive learning platform covering AI-native software development.</p>
+            <h3>Features:</h3>
+            <ul>
+                <li>✅ 6 book chapters with comprehensive questions</li>
+                <li>✅ 3 difficulty levels</li>
+                <li>✅ Multiple topics per chapter</li>
+                <li>✅ Immediate feedback with page references</li>
+                <li>✅ Dark mode support</li>
+                <li>✅ Progress tracking (Local Storage)</li>
+                <li>✅ Results analytics</li>
+            </ul>
+            <h3>About Agent Factory:</h3>
+            <p>Agent Factory teaches you how to build AI-native software using General Agents, Custom Agents, and the modern AI stack.</p>
+            <p><strong>Learn more:</strong> <a href="https://agentfactory.panaversity.org" target="_blank">agentfactory.panaversity.org</a></p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 Agent Factory Quizzes | <a href="https://panaversity.org" target="_blank">Panaversity</a></p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/quiz.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- Questions Data Files -->
+    <script src="data/questions-chapter1.js"></script>
+    <script src="data/questions-chapter2.js"></script>
+    <script src="data/questions-chapter3.js"></script>
+    <script src="data/questions-chapter4.js"></script>
+    <script src="data/questions-chapter5.js"></script>
+    <script src="data/questions-chapter6.js"></script>
+</body>
+</html>

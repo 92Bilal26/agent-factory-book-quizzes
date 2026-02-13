@@ -1,0 +1,370 @@
+/* ============================================================
+   Agent Factory Quizzes — responsive.css
+   Responsive / Adaptive Overrides
+   ============================================================
+   Breakpoints:
+     xs  —  < 480px   (small phones)
+     sm  —  480–639px (large phones)
+     md  —  640–767px (small tablets)
+     lg  —  768–1023px(tablets / small laptop)
+     xl  —  1024px+   (desktop)
+
+   Strategy: mobile-first base in style.css,
+             progressive enhancements below.
+   ============================================================ */
+
+
+/* ============================================================
+   XS — Small Phones  (max-width: 479px)
+   ============================================================ */
+
+@media (max-width: 479px) {
+
+  /* Navbar */
+  .logo h1 {
+    font-size: 1rem;
+    max-width: 140px;
+  }
+
+  .logo-icon {
+    font-size: 1.25rem;
+  }
+
+  .nav-btn,
+  .theme-toggle {
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+
+  /* Welcome */
+  .welcome-content > h2 {
+    font-size: 1.5rem;
+  }
+
+  .subtitle {
+    font-size: 0.9rem;
+  }
+
+  .stats-cards {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  .mode-buttons {
+    grid-template-columns: 1fr;
+  }
+
+  .option-group {
+    padding: 1rem;
+  }
+
+  /* Quiz */
+  .quiz-header {
+    padding: 0.75rem 1rem;
+  }
+
+  .question-header h2 {
+    font-size: 1rem;
+  }
+
+  .option-btn {
+    padding: 0.75rem 1rem;
+    gap: 0.75rem;
+  }
+
+  .option-letter {
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    font-size: 0.75rem;
+  }
+
+  .option-text {
+    font-size: 0.875rem;
+  }
+
+  .quiz-navigation {
+    padding: 0.75rem 1rem;
+    gap: 0.5rem;
+  }
+
+  .quiz-navigation .btn {
+    padding: 0.625rem 0.875rem;
+    font-size: 0.875rem;
+    min-height: 40px;
+  }
+
+  .quiz-toolbar {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .quiz-toolbar .filter-select,
+  .quiz-toolbar .search-input {
+    width: 100%;
+    min-width: unset;
+    flex: unset;
+  }
+
+  /* Results */
+  .score-circle {
+    width: 130px;
+    height: 130px;
+  }
+
+  .score-number {
+    font-size: 1.875rem;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+  }
+
+  .stat-value {
+    font-size: 1.875rem;
+  }
+
+  .results-charts {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .results-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .results-buttons .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Review */
+  .review-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #reviewFilter {
+    width: 100%;
+  }
+
+  .review-buttons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .review-buttons .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Modals */
+  .modal-content {
+    padding: 1.25rem;
+    border-radius: 1rem;
+    max-height: 92vh;
+  }
+
+  /* Headings */
+  h1 { font-size: 1.5rem;  }
+  h2 { font-size: 1.375rem;}
+  h3 { font-size: 1.125rem;}
+}
+
+
+/* ============================================================
+   SM — Large Phones  (480px – 639px)
+   ============================================================ */
+
+@media (min-width: 480px) and (max-width: 639px) {
+
+  .stats-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .mode-buttons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .results-charts {
+    grid-template-columns: 1fr;
+  }
+
+  .quiz-toolbar {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .quiz-toolbar .filter-select {
+    flex: 1 1 calc(50% - 0.25rem);
+    min-width: 120px;
+  }
+
+  .quiz-toolbar .search-input {
+    flex: 1 1 100%;
+  }
+}
+
+
+/* ============================================================
+   MD — Small Tablets  (640px – 767px)
+   ============================================================ */
+
+@media (min-width: 640px) and (max-width: 767px) {
+
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .results-charts {
+    grid-template-columns: 1fr;
+  }
+
+  .mode-buttons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .quiz-toolbar {
+    flex-wrap: nowrap;
+  }
+}
+
+
+/* ============================================================
+   LG — Tablets / Small Laptops  (768px – 1023px)
+   ============================================================ */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+  :root {
+    --container-max: 860px;
+  }
+
+  .results-charts {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .quiz-toolbar {
+    flex-wrap: nowrap;
+  }
+}
+
+
+/* ============================================================
+   XL — Desktop  (1024px+)
+   ============================================================ */
+
+@media (min-width: 1024px) {
+
+  :root {
+    --container-max: 900px;
+  }
+
+  /* Enhance hover interactions on devices that support them */
+  .option-btn:hover {
+    transform: translateX(6px);
+  }
+
+  .stat-card:hover,
+  .stat-item:hover {
+    transform: translateY(-3px);
+  }
+
+  /* Slightly larger question text */
+  .question-header h2 {
+    font-size: 1.25rem;
+  }
+
+  /* Quiz navigation row — spread evenly */
+  .quiz-navigation {
+    justify-content: space-between;
+  }
+}
+
+
+/* ============================================================
+   2XL — Wide Desktop  (1280px+)
+   ============================================================ */
+
+@media (min-width: 1280px) {
+
+  :root {
+    --container-max: 960px;
+  }
+}
+
+
+/* ============================================================
+   Print Styles
+   ============================================================ */
+
+@media print {
+
+  /* Hide chrome */
+  .navbar,
+  .footer,
+  .quiz-toolbar,
+  .quiz-navigation,
+  .results-buttons,
+  .review-buttons,
+  #progressBtn,
+  #aboutBtn,
+  #themeToggle,
+  #quitBtn,
+  #skipBtn,
+  .modal {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 12pt;
+  }
+
+  main.container {
+    padding-top: 0;
+    max-width: 100%;
+  }
+
+  .screen {
+    display: block !important;
+  }
+
+  /* Show only the results screen when printing */
+  #welcomeScreen,
+  #quizScreen,
+  #reviewScreen {
+    display: none !important;
+  }
+
+  .results-container {
+    page-break-inside: avoid;
+  }
+
+  .chart-container {
+    border: 1px solid #ccc;
+    page-break-inside: avoid;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 10pt;
+    color: #444;
+  }
+}
