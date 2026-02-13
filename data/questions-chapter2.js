@@ -9,12 +9,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 1,
       "question": "What is Markdown primarily designed for?",
       "options": [
-        "Creating binary executable files",
         "Writing formatted text using plain-text syntax that is easy to read and write",
+        "Creating binary executable files",
         "Building graphical user interfaces",
         "Compiling programming languages"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Why Markdown Matters",
       "pageReference": "31",
@@ -24,8 +24,13 @@ window.QUIZ_DATA_CHAPTER2 = {
     {
       "id": 2,
       "question": "Which character is used to create a Heading Level 1 (H1) in Markdown?",
-      "options": ["##", "//", "#", "**"],
-      "correct": 2,
+      "options": [
+        "##",
+        "#",
+        "//",
+        "**"
+      ],
+      "correct": 1,
       "difficulty": "easy",
       "topic": "Headings",
       "pageReference": "35",
@@ -37,11 +42,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How do you create a bold text in Markdown?",
       "options": [
         "Surrounding text with single asterisks like *text*",
-        "Surrounding text with double asterisks like **text**",
         "Using the <b> HTML tag",
+        "Surrounding text with double asterisks like **text**",
         "Using underscores once like _text_"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Markdown Syntax",
       "pageReference": "36",
@@ -53,11 +58,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What Markdown syntax creates an unordered (bullet) list?",
       "options": [
         "Starting lines with numbers like '1.'",
-        "Starting lines with a dash (-), asterisk (*), or plus sign (+) followed by a space",
+        "Using angle brackets <li>",
         "Indenting lines with four spaces",
-        "Using angle brackets <li>"
+        "Starting lines with a dash (-), asterisk (*), or plus sign (+) followed by a space"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Lists",
       "pageReference": "38",
@@ -68,12 +73,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 5,
       "question": "How do you create an inline code snippet in Markdown?",
       "options": [
-        "Surrounding the code with double quotes",
         "Surrounding the code with backticks like `code`",
+        "Surrounding the code with double quotes",
         "Using the <code> HTML tag",
         "Surrounding code with curly braces {code}"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Code Blocks",
       "pageReference": "40",
@@ -99,8 +104,13 @@ window.QUIZ_DATA_CHAPTER2 = {
     {
       "id": 7,
       "question": "How do you create an H2 heading in Markdown?",
-      "options": ["#", "##", "###", "####"],
-      "correct": 1,
+      "options": [
+        "#",
+        "###",
+        "##",
+        "####"
+      ],
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Headings",
       "pageReference": "35",
@@ -112,11 +122,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What does Markdown syntax `[link text](URL)` create?",
       "options": [
         "A bold text element",
-        "A clickable hyperlink with specified display text",
+        "A code block",
         "An image element",
-        "A code block"
+        "A clickable hyperlink with specified display text"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Links and Images",
       "pageReference": "42",
@@ -127,12 +137,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 9,
       "question": "How do you create an image in Markdown?",
       "options": [
-        "[image](url)",
         "![alt text](image-url)",
+        "[image](url)",
         "<img src='url'>",
         "{{image: url}}"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Links and Images",
       "pageReference": "43",
@@ -160,11 +170,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What does the Markdown syntax `*italic*` produce?",
       "options": [
         "Bold text",
-        "Italic text",
         "A bullet point",
+        "Italic text",
         "Underlined text"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Markdown Syntax",
       "pageReference": "36",
@@ -176,11 +186,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How do you create an ordered (numbered) list in Markdown?",
       "options": [
         "Starting items with dashes (-)",
-        "Starting items with numbers followed by periods (1. 2. 3.)",
+        "Using tab indentation before each item",
         "Starting items with asterisks (*)",
-        "Using tab indentation before each item"
+        "Starting items with numbers followed by periods (1. 2. 3.)"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Lists",
       "pageReference": "38",
@@ -191,12 +201,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 13,
       "question": "Why is Markdown important for AI agents and Claude Code specifically?",
       "options": [
-        "AI models can only read Markdown format files",
         "Markdown provides structured, parseable formatting that AI agents can generate and interpret reliably for documentation and communication",
+        "AI models can only read Markdown format files",
         "Markdown is required by all cloud platforms",
         "AI models were originally trained only on Markdown documents"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Why Markdown Matters",
       "pageReference": "32",
@@ -207,12 +217,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 14,
       "question": "What does a horizontal rule look like in Markdown syntax?",
       "options": [
-        "Three or more dashes (---) on their own line",
         "A series of equals signs (===)",
+        "Three or more dashes (---) on their own line",
         "Three forward slashes (///)",
         "A line of asterisks and dashes alternating (*-*-)"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "topic": "Markdown Syntax",
       "pageReference": "37",
@@ -224,11 +234,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How is a blockquote created in Markdown?",
       "options": [
         "Surrounding text with quotation marks",
-        "Starting a line with the > character",
         "Indenting text with a tab",
+        "Starting a line with the > character",
         "Using the <blockquote> HTML tag"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Markdown Syntax",
       "pageReference": "37",
@@ -238,8 +248,13 @@ window.QUIZ_DATA_CHAPTER2 = {
     {
       "id": 16,
       "question": "What is the file extension conventionally used for Markdown files?",
-      "options": [".txt", ".md", ".mkd", ".mark"],
-      "correct": 1,
+      "options": [
+        ".txt",
+        ".mark",
+        ".mkd",
+        ".md"
+      ],
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Why Markdown Matters",
       "pageReference": "31",
@@ -250,12 +265,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 17,
       "question": "How do you create a nested list in Markdown?",
       "options": [
-        "Using multiple # symbols",
         "Indenting list items with spaces (typically 2-4) to create sub-items under parent items",
+        "Using multiple # symbols",
         "Using different list markers for each level",
         "Nesting is not supported in Markdown lists"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Lists",
       "pageReference": "39",
@@ -283,11 +298,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How do you create a table in Markdown?",
       "options": [
         "Using HTML <table> tags only",
-        "Using pipe characters (|) to separate columns and dashes (-) to create header separators",
         "Using tab-separated values",
+        "Using pipe characters (|) to separate columns and dashes (-) to create header separators",
         "Tables are not supported in standard Markdown"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Markdown Syntax",
       "pageReference": "44",
@@ -299,11 +314,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the advantage of Markdown over raw HTML for documentation?",
       "options": [
         "Markdown can do everything HTML can do",
-        "Markdown is much more readable in plain text form, making it easier to write and review without rendering",
+        "Markdown files are always smaller than HTML files",
         "Markdown renders faster than HTML in browsers",
-        "Markdown files are always smaller than HTML files"
+        "Markdown is much more readable in plain text form, making it easier to write and review without rendering"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Why Markdown Matters",
       "pageReference": "32",
@@ -314,12 +329,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 21,
       "question": "How do you escape a Markdown character (prevent it from being formatted)?",
       "options": [
-        "Putting the character in quotes",
         "Preceding the character with a backslash (\\)",
+        "Putting the character in quotes",
         "Putting the character in parentheses",
         "Using double spaces before the character"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Markdown Syntax",
       "pageReference": "36",
@@ -345,7 +360,12 @@ window.QUIZ_DATA_CHAPTER2 = {
     {
       "id": 23,
       "question": "Which heading level uses three hash symbols (###)?",
-      "options": ["H1", "H2", "H3", "H4"],
+      "options": [
+        "H1",
+        "H2",
+        "H3",
+        "H4"
+      ],
       "correct": 2,
       "difficulty": "easy",
       "topic": "Headings",
@@ -356,7 +376,12 @@ window.QUIZ_DATA_CHAPTER2 = {
     {
       "id": 24,
       "question": "What is the maximum heading level supported by standard Markdown?",
-      "options": ["H3", "H4", "H5", "H6"],
+      "options": [
+        "H3",
+        "H4",
+        "H5",
+        "H6"
+      ],
       "correct": 3,
       "difficulty": "easy",
       "topic": "Headings",
@@ -368,12 +393,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 25,
       "question": "How do you add a title (tooltip) to a Markdown link?",
       "options": [
-        "[text](url) - titles are automatic",
         "[text](url 'Title text') - adding quoted title after URL inside parentheses",
+        "[text](url) - titles are automatic",
         "[text|title](url)",
         "Titles cannot be added to Markdown links"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Links and Images",
       "pageReference": "42",
@@ -401,11 +426,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the key difference between GitHub Flavored Markdown (GFM) and the CommonMark specification?",
       "options": [
         "GFM is a subset of CommonMark with fewer features",
-        "GFM extends CommonMark with additional features like tables, task lists, strikethrough, and autolinks",
         "CommonMark includes all GFM features plus more",
+        "GFM extends CommonMark with additional features like tables, task lists, strikethrough, and autolinks",
         "They are completely incompatible standards"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "CommonMark Standard",
       "pageReference": "49",
@@ -417,11 +442,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the benefit of using fenced code blocks with language specifiers (e.g., ```python) over plain indented code blocks?",
       "options": [
         "Fenced blocks allow longer code without word wrapping",
-        "Language specifiers enable syntax highlighting and signal to parsers and AI agents the programming language being used",
+        "Fenced blocks are the only way to include code on mobile devices",
         "Indented blocks are deprecated and should never be used",
-        "Fenced blocks are the only way to include code on mobile devices"
+        "Language specifiers enable syntax highlighting and signal to parsers and AI agents the programming language being used"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Code Blocks",
       "pageReference": "41",
@@ -432,12 +457,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 29,
       "question": "How does Markdown support both soft wraps and hard line breaks within a paragraph?",
       "options": [
-        "All line breaks in Markdown source create new paragraphs",
         "Single line returns are soft wraps (ignored), two spaces at line end or \\ creates a hard break, double blank lines create paragraph breaks",
+        "All line breaks in Markdown source create new paragraphs",
         "Markdown has no control over line breaking",
         "Only HTML <br> tags create line breaks in Markdown"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "Markdown Syntax",
       "pageReference": "36",
@@ -465,11 +490,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is a 'reference-style link' in Markdown and when is it preferred?",
       "options": [
         "A link that only works in reference documentation",
-        "Links defined separately from their usage using [text][id] with [id]: URL defined elsewhere — preferred for repeated links or improving source readability",
         "An automatically generated link from page headings",
+        "Links defined separately from their usage using [text][id] with [id]: URL defined elsewhere — preferred for repeated links or improving source readability",
         "A link that requires authentication to access"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Links and Images",
       "pageReference": "43",
@@ -481,11 +506,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How do task lists (checkboxes) work in GitHub Flavored Markdown?",
       "options": [
         "Using <input type='checkbox'> HTML elements",
-        "Using - [ ] for unchecked and - [x] for checked items in list format",
+        "Task lists require a special plugin and are not part of any Markdown standard",
         "Using the @task: notation",
-        "Task lists require a special plugin and are not part of any Markdown standard"
+        "Using - [ ] for unchecked and - [x] for checked items in list format"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Lists",
       "pageReference": "39",
@@ -496,12 +521,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 33,
       "question": "What is the purpose of the `---` YAML front matter at the beginning of some Markdown files?",
       "options": [
-        "It creates a heading separator line",
         "It defines metadata (title, date, tags, etc.) for the document that can be parsed by static site generators and document processors",
+        "It creates a heading separator line",
         "It indicates the file requires special rendering",
         "It is a syntax error in standard Markdown"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "Markdown Syntax",
       "pageReference": "45",
@@ -529,11 +554,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What happens when you use the setext-style heading syntax in Markdown (underlines with = or -)?",
       "options": [
         "It creates superscript text",
-        "Underscoring with === creates H1 and --- creates H2, an alternative to hash-based headings",
         "It creates a horizontal rule with a caption",
+        "Underscoring with === creates H1 and --- creates H2, an alternative to hash-based headings",
         "Setext headings are deprecated and produce errors in modern parsers"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Headings",
       "pageReference": "35",
@@ -545,11 +570,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How do you specify column alignment in a Markdown table?",
       "options": [
         "Using the align= attribute inside pipe characters",
-        "Using colons in the separator row: :--- for left, ---: for right, :---: for center alignment",
+        "Using the > symbol before each cell for right alignment",
         "Alignment is controlled by the rendering engine and cannot be specified in Markdown",
-        "Using the > symbol before each cell for right alignment"
+        "Using colons in the separator row: :--- for left, ---: for right, :---: for center alignment"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Markdown Syntax",
       "pageReference": "44",
@@ -560,12 +585,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 37,
       "question": "Why does the CommonMark specification matter for developers building Markdown-processing tools?",
       "options": [
-        "CommonMark is legally required for commercial software",
         "CommonMark provides an unambiguous reference that ensures consistent rendering across different parsers and implementations",
+        "CommonMark is legally required for commercial software",
         "CommonMark is faster to parse than other Markdown dialects",
         "CommonMark includes performance benchmarks for Markdown processors"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "CommonMark Standard",
       "pageReference": "49",
@@ -593,11 +618,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How do you create a Markdown link that opens a user's email client?",
       "options": [
         "[email](send:address@example.com)",
-        "[email](mailto:address@example.com)",
         "[email](email://address@example.com)",
+        "[email](mailto:address@example.com)",
         "Direct email links are not supported in Markdown"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Links and Images",
       "pageReference": "42",
@@ -609,11 +634,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the significance of blank lines in Markdown document structure?",
       "options": [
         "Blank lines have no effect in Markdown",
-        "Blank lines are critical separators in Markdown — they end paragraphs, separate block elements, and are required before/after many block-level elements for correct parsing",
+        "Multiple blank lines create multiple paragraph breaks equivalent to the number of blank lines",
         "Blank lines create visual spacers but have no parsing significance",
-        "Multiple blank lines create multiple paragraph breaks equivalent to the number of blank lines"
+        "Blank lines are critical separators in Markdown — they end paragraphs, separate block elements, and are required before/after many block-level elements for correct parsing"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Markdown Syntax",
       "pageReference": "36",
@@ -624,12 +649,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 41,
       "question": "How do definition lists work in extended Markdown dialects?",
       "options": [
-        "Definition lists use the DL tag inherited from HTML",
         "Terms are placed on one line, followed by an indented line starting with : that contains the definition",
+        "Definition lists use the DL tag inherited from HTML",
         "Definition lists use the format term = definition",
         "Standard Markdown doesn't support definition lists in any dialect"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "Lists",
       "pageReference": "39",
@@ -657,11 +682,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How does Markdown handle special characters in URLs within links?",
       "options": [
         "Special characters are automatically escaped by Markdown parsers",
-        "URLs must be percent-encoded (e.g., spaces as %20) since Markdown passes URLs to HTML without modification",
         "Special characters in URLs cause Markdown rendering to fail",
+        "URLs must be percent-encoded (e.g., spaces as %20) since Markdown passes URLs to HTML without modification",
         "Spaces in URLs are automatically converted to dashes"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Links and Images",
       "pageReference": "43",
@@ -673,11 +698,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the purpose of the 'alt text' in Markdown image syntax and why is it important for AI systems?",
       "options": [
         "Alt text is purely decorative and has no functional purpose",
-        "Alt text provides a textual description of images used for accessibility, SEO, and as fallback when images fail to load — and provides context to AI agents that cannot 'see' images",
+        "Alt text is only required for images on external servers",
         "Alt text determines the size at which the image renders",
-        "Alt text is only required for images on external servers"
+        "Alt text provides a textual description of images used for accessibility, SEO, and as fallback when images fail to load — and provides context to AI agents that cannot 'see' images"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Links and Images",
       "pageReference": "43",
@@ -688,12 +713,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 45,
       "question": "How does Markdown handle HTML within documents according to the CommonMark specification?",
       "options": [
-        "HTML is completely ignored by CommonMark-compliant parsers",
         "Raw HTML is passed through and rendered as HTML, allowing Markdown documents to include HTML elements not supported by pure Markdown syntax",
+        "HTML is completely ignored by CommonMark-compliant parsers",
         "HTML in Markdown documents is escaped and displayed as literal text",
         "CommonMark prohibits any HTML inside Markdown documents"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "CommonMark Standard",
       "pageReference": "50",
@@ -721,11 +746,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is 'lazy continuation' in Markdown list parsing and why does it matter?",
       "options": [
         "A feature that allows lists to span multiple files",
-        "The ability for subsequent paragraphs in a list item to continue without indentation — supported in some parsers but not others, creating cross-platform inconsistencies",
         "A way to auto-complete partially typed list items",
+        "The ability for subsequent paragraphs in a list item to continue without indentation — supported in some parsers but not others, creating cross-platform inconsistencies",
         "Lazy continuation is a security vulnerability in Markdown parsers"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Lists",
       "pageReference": "39",
@@ -737,11 +762,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How do Markdown footnotes work in extended dialects, and why are they useful in technical documentation?",
       "options": [
         "Footnotes are not supported in any Markdown dialect",
-        "Footnotes use [^label] inline and [^label]: content definition, allowing supplementary information without interrupting the main text flow — important for technical documentation with references",
+        "Footnotes in Markdown only support numerical references",
         "Footnotes require conversion to HTML before they can be used",
-        "Footnotes in Markdown only support numerical references"
+        "Footnotes use [^label] inline and [^label]: content definition, allowing supplementary information without interrupting the main text flow — important for technical documentation with references"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Markdown Syntax",
       "pageReference": "46",
@@ -752,12 +777,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 49,
       "question": "What is the 'four-space rule' in original Markdown specification and how did CommonMark address it?",
       "options": [
-        "The four-space rule requires all code blocks to use exactly four spaces of indentation",
         "Original Markdown used four-space indentation for code blocks, but CommonMark clarified edge cases and allows fenced blocks as the preferred modern approach to eliminate ambiguity",
+        "The four-space rule requires all code blocks to use exactly four spaces of indentation",
         "The four-space rule determines paragraph indentation",
         "CommonMark eliminated the four-space rule entirely, requiring triple backticks only"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "CommonMark Standard",
       "pageReference": "49",
@@ -785,11 +810,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the 'tight list' versus 'loose list' distinction in CommonMark and what causes the difference in rendering?",
       "options": [
         "Tight lists use dashes and loose lists use asterisks",
-        "Tight lists have no blank lines between items (rendered without paragraph spacing), while loose lists have blank lines between items (rendered with paragraph spacing)",
         "Tight lists require indentation while loose lists do not",
+        "Tight lists have no blank lines between items (rendered without paragraph spacing), while loose lists have blank lines between items (rendered with paragraph spacing)",
         "The distinction only applies to nested lists, not top-level lists"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Lists",
       "pageReference": "39",
@@ -801,11 +826,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How does Markdown's design philosophy of 'readability first' specifically benefit AI-assisted development workflows?",
       "options": [
         "Readability first means AI generates more verbose output",
-        "Plain-text readability enables AI agents to produce documentation that remains useful even when rendering fails, integrates seamlessly into version control diffs, and can be reviewed by humans without special tools",
+        "Readability first only benefits human developers, not AI processing",
         "AI systems prefer binary formats over plain text for efficiency",
-        "Readability first only benefits human developers, not AI processing"
+        "Plain-text readability enables AI agents to produce documentation that remains useful even when rendering fails, integrates seamlessly into version control diffs, and can be reviewed by humans without special tools"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Why Markdown Matters",
       "pageReference": "32",
@@ -816,12 +841,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 53,
       "question": "What is the semantic difference between using ATX heading levels correctly vs. using heading sizes purely for visual effect?",
       "options": [
-        "There is no semantic difference — both approaches render identically",
         "Semantically correct heading hierarchy creates machine-readable document structure that parsers, screen readers, SEO tools, and AI agents can use for navigation and understanding; visual-only sizing destroys this semantic information",
+        "There is no semantic difference — both approaches render identically",
         "ATX headings always render differently than setext headings",
         "Semantic headings are only important for HTML, not Markdown"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "Headings",
       "pageReference": "35",
@@ -849,11 +874,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the 'link reference definition' mechanism in CommonMark and how does it improve large document maintainability?",
       "options": [
         "Link reference definitions are a deprecated feature removed from CommonMark",
-        "Definitions ([id]: URL 'title') are collected and stored separately from usage ([text][id]), centralizing URL management so links can be updated in one place and reused throughout a document",
         "Link references only work within the same line they're defined on",
+        "Definitions ([id]: URL 'title') are collected and stored separately from usage ([text][id]), centralizing URL management so links can be updated in one place and reused throughout a document",
         "Link reference definitions require special preprocessing tools outside the parser"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Links and Images",
       "pageReference": "43",
@@ -865,11 +890,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How does Markdown's treatment of HTML entities and character references work in CommonMark-compliant parsers?",
       "options": [
         "HTML entities are ignored in CommonMark — only Unicode characters are supported",
-        "CommonMark supports HTML5 named entities, decimal numeric references, and hexadecimal references — all converted to corresponding Unicode characters in output",
+        "CommonMark escapes all HTML entities, displaying them as literal text",
         "HTML entities must be manually decoded before processing",
-        "CommonMark escapes all HTML entities, displaying them as literal text"
+        "CommonMark supports HTML5 named entities, decimal numeric references, and hexadecimal references — all converted to corresponding Unicode characters in output"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "CommonMark Standard",
       "pageReference": "50",
@@ -880,12 +905,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 57,
       "question": "What is the strategic reason Agent Factory recommends Markdown for agent-to-agent communication protocols?",
       "options": [
-        "JSON is insufficient for all agent communication needs",
         "Markdown provides a human-inspectable, debuggable format for agent messages that can be logged, reviewed, and parsed — maintaining observability while being processable by LLMs without special deserialization",
+        "JSON is insufficient for all agent communication needs",
         "Markdown is faster to generate than JSON or XML",
         "Markdown is the only format that Claude models can read"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "Why Markdown Matters",
       "pageReference": "34",
@@ -913,11 +938,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the relationship between Markdown's design principles and the broader Agent Factory principle of 'text as universal interface'?",
       "options": [
         "They are unrelated — Markdown is a formatting tool and Agent Factory principles are about agent behavior",
-        "Markdown exemplifies the text-as-interface principle: structured plain text that humans can read, agents can process, tools can parse, and systems can transmit without special protocols — making it the natural medium for agent communication",
         "Text interfaces are considered inferior to API interfaces in Agent Factory",
+        "Markdown exemplifies the text-as-interface principle: structured plain text that humans can read, agents can process, tools can parse, and systems can transmit without special protocols — making it the natural medium for agent communication",
         "The Agent Factory text interface principle only applies to CLI tools, not documentation"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Why Markdown Matters",
       "pageReference": "34",
@@ -929,11 +954,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How do Markdown's inline vs. block element parsing rules create challenges for AI agents generating structured documents?",
       "options": [
         "AI agents face no challenges since they always generate valid Markdown",
-        "Block elements require blank line separation that AI agents may omit, creating concatenated blocks parsed as paragraphs — requiring agents to have explicit knowledge of Markdown's contextual whitespace rules",
+        "The challenge only applies to code blocks, not other block elements",
         "Inline and block elements have identical parsing rules with no contextual difference",
-        "The challenge only applies to code blocks, not other block elements"
+        "Block elements require blank line separation that AI agents may omit, creating concatenated blocks parsed as paragraphs — requiring agents to have explicit knowledge of Markdown's contextual whitespace rules"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Markdown Syntax",
       "pageReference": "36",
@@ -944,12 +969,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 61,
       "question": "What is the CommonMark specification's approach to 'link destinations' and how does it handle edge cases like parentheses in URLs?",
       "options": [
-        "CommonMark doesn't support URLs with parentheses — they must be percent-encoded",
         "CommonMark allows balanced parentheses in link destinations and supports both angle-bracket-delimited destinations for complex URLs and bare destinations for simple URLs",
+        "CommonMark doesn't support URLs with parentheses — they must be percent-encoded",
         "Only angle-bracket syntax is valid for link destinations in CommonMark",
         "Parentheses in URLs automatically terminate the link destination"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "Links and Images",
       "pageReference": "42",
@@ -977,11 +1002,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What are the CommonMark specification's rules for 'info strings' in fenced code blocks and how do they affect agent behavior?",
       "options": [
         "Info strings are purely cosmetic and have no functional effect",
-        "Info strings (text after opening fence) specify language for syntax highlighting and can be parsed by tools and agents for language-specific processing, code execution routing, or documentation generation",
         "Info strings are limited to single-word language identifiers only",
+        "Info strings (text after opening fence) specify language for syntax highlighting and can be parsed by tools and agents for language-specific processing, code execution routing, or documentation generation",
         "CommonMark doesn't define behavior for info strings — it's implementation-specific"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Code Blocks",
       "pageReference": "41",
@@ -993,11 +1018,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How does Markdown's lack of native support for complex elements (like advanced tables or mathematical notation) shape the architectural choice of hybrid rendering in Agent Factory documentation systems?",
       "options": [
         "This limitation means Markdown should not be used for technical documentation",
-        "Markdown's limited native feature set drives a pragmatic hybrid approach: pure Markdown for 80% of content with targeted HTML or LaTeX extensions for specific complex elements — maximizing readability while meeting specialized needs",
+        "Agent Factory recommends replacing Markdown with AsciiDoc for complex documentation",
         "The limitation is fully resolved by using GFM which supports all needed features",
-        "Agent Factory recommends replacing Markdown with AsciiDoc for complex documentation"
+        "Markdown's limited native feature set drives a pragmatic hybrid approach: pure Markdown for 80% of content with targeted HTML or LaTeX extensions for specific complex elements — maximizing readability while meeting specialized needs"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Markdown Syntax",
       "pageReference": "46",
@@ -1008,12 +1033,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 65,
       "question": "What is the significance of Markdown's 'lazy blockquote continuation' rule and how does it reveal the specification's design philosophy?",
       "options": [
-        "Lazy continuation is a flaw that CommonMark eliminates",
         "Lazy blockquote continuation (allowing subsequent lines without > prefix to continue the blockquote) prioritizes authoring convenience over strict syntactic consistency — reflecting Markdown's human-first design philosophy",
+        "Lazy continuation is a flaw that CommonMark eliminates",
         "Lazy continuation only applies to the first line of blockquotes",
         "The rule requires every line of a blockquote to start with > for strict compliance"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "CommonMark Standard",
       "pageReference": "50",
@@ -1041,11 +1066,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the architectural role of Markdown in the Agent Factory's 'context as code' principle for managing agent instructions?",
       "options": [
         "Markdown has no special role in context management",
-        "Markdown enables agent instructions to be treated as versionable, diffable, reviewable code artifacts — applying software engineering practices (version control, code review, testing) to the management of agent behavior configuration",
         "Context as code requires JSON format, making Markdown incompatible",
+        "Markdown enables agent instructions to be treated as versionable, diffable, reviewable code artifacts — applying software engineering practices (version control, code review, testing) to the management of agent behavior configuration",
         "Markdown is only used for documentation, not agent context management"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Why Markdown Matters",
       "pageReference": "34",
@@ -1057,11 +1082,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How does CommonMark's handling of 'hard line breaks' (trailing spaces) create challenges for automated Markdown generation by AI agents?",
       "options": [
         "Hard line breaks are irrelevant to AI-generated Markdown",
-        "Trailing spaces as hard breaks are invisible in most editors and easily lost in processing pipelines — AI agents should prefer the explicit \\ syntax to ensure intended hard breaks survive text processing",
+        "CommonMark eliminates trailing space syntax, requiring only the \\ approach",
         "AI agents should never generate hard line breaks in Markdown",
-        "CommonMark eliminates trailing space syntax, requiring only the \\ approach"
+        "Trailing spaces as hard breaks are invisible in most editors and easily lost in processing pipelines — AI agents should prefer the explicit \\ syntax to ensure intended hard breaks survive text processing"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Markdown Syntax",
       "pageReference": "36",
@@ -1072,12 +1097,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 69,
       "question": "What does the Agent Factory book identify as the 'hierarchy of formatting choices' when Markdown is used in agent-generated technical reports?",
       "options": [
-        "All formatting choices are equally valid and interchangeable",
         "Use heading hierarchy for document navigation, code blocks for exact technical content, tables for comparative data, bullet lists for unordered options, numbered lists for sequences — each element serves a specific semantic purpose",
+        "All formatting choices are equally valid and interchangeable",
         "Only one formatting element should be used per document for consistency",
         "Technical reports should minimize formatting to reduce token usage"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "Why Markdown Matters",
       "pageReference": "34",
@@ -1105,11 +1130,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the deep structural reason Markdown tables in CommonMark require the separator row (with dashes) between header and body?",
       "options": [
         "The separator row is purely aesthetic and has no parsing significance",
-        "The separator row is semantically required to distinguish header cells from data cells — without it, no table structure can be inferred, enabling alignment control and machine-readable header identification",
         "The separator row only enables alignment control with no other purpose",
+        "The separator row is semantically required to distinguish header cells from data cells — without it, no table structure can be inferred, enabling alignment control and machine-readable header identification",
         "Tables in CommonMark don't require separator rows — they are optional"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Markdown Syntax",
       "pageReference": "44",
@@ -1121,11 +1146,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How does the Agent Factory's emphasis on Markdown mastery align with the broader principle of 'text as the universal substrate for agent collaboration'?",
       "options": [
         "Markdown mastery is a minor technical skill unrelated to agent collaboration principles",
-        "Mastering Markdown equips developers to create richly structured text that serves simultaneously as human documentation, agent instructions, machine-readable specifications, and version-controlled artifacts — text that bridges all collaboration layers",
+        "Markdown is only one of many equally valid formats for agent collaboration",
         "Agent collaboration requires binary protocols that Markdown cannot support",
-        "Markdown is only one of many equally valid formats for agent collaboration"
+        "Mastering Markdown equips developers to create richly structured text that serves simultaneously as human documentation, agent instructions, machine-readable specifications, and version-controlled artifacts — text that bridges all collaboration layers"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Why Markdown Matters",
       "pageReference": "34",
@@ -1136,12 +1161,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 73,
       "question": "What subtle distinction does CommonMark make between 'code spans' (inline code) and 'fenced code blocks' regarding whitespace handling?",
       "options": [
-        "Both code spans and code blocks preserve all whitespace identically",
         "Code spans trim exactly one leading/trailing space if present (to allow ` inside spans using backtick padding), while code blocks preserve all content verbatim including leading whitespace",
+        "Both code spans and code blocks preserve all whitespace identically",
         "Code spans collapse all whitespace while code blocks expand tabs to spaces",
         "Whitespace handling is implementation-specific for both elements in CommonMark"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "Code Blocks",
       "pageReference": "40",
@@ -1169,11 +1194,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the 'spec priority list' in CommonMark that defines how parsing ambiguities are resolved, and why is understanding it important for Markdown tool developers?",
       "options": [
         "CommonMark has no priority list — all constructs are parsed in document order",
-        "CommonMark defines explicit precedence: block structure over inline structure, earlier constructs over later ones, and specific ordering of block types — understanding this enables developers to predict parsing outcomes for edge cases",
         "Priority is determined by HTML rendering rules, not Markdown specification",
+        "CommonMark defines explicit precedence: block structure over inline structure, earlier constructs over later ones, and specific ordering of block types — understanding this enables developers to predict parsing outcomes for edge cases",
         "The priority list only applies to CommonMark version 1.0 and was removed in later versions"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "CommonMark Standard",
       "pageReference": "49",
@@ -1185,11 +1210,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How does Markdown's design as a 'writing tool' rather than a 'publishing tool' shape its appropriate use in Agent Factory's documentation architecture?",
       "options": [
         "Being a writing tool means Markdown is only suitable for drafts, not final documentation",
-        "Markdown's writing-tool origin means it prioritizes authoring speed and readability over pixel-perfect formatting — making it ideal for documentation that evolves rapidly with agent development, where content velocity matters more than presentation perfection",
+        "Agent Factory recommends converting all Markdown to a publishing format before deployment",
         "Writing tools and publishing tools require identical architectural approaches",
-        "Agent Factory recommends converting all Markdown to a publishing format before deployment"
+        "Markdown's writing-tool origin means it prioritizes authoring speed and readability over pixel-perfect formatting — making it ideal for documentation that evolves rapidly with agent development, where content velocity matters more than presentation perfection"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Why Markdown Matters",
       "pageReference": "31",
@@ -1200,12 +1225,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 77,
       "question": "What is the relationship between Markdown's 'loose' specification in its original form and the proliferation of incompatible Markdown 'flavors' that CommonMark was created to resolve?",
       "options": [
-        "Markdown's original specification was complete and precise — incompatibility arose from implementation bugs",
         "Gruber's original Markdown spec deliberately left many edge cases undefined, leading to each implementation making different choices — creating an ecosystem of incompatible flavors that CommonMark resolved by providing test cases for every ambiguous case",
+        "Markdown's original specification was complete and precise — incompatibility arose from implementation bugs",
         "CommonMark was created to add features, not to resolve specification ambiguity",
         "The different Markdown flavors are fully compatible and the differences are purely cosmetic"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "CommonMark Standard",
       "pageReference": "49",
@@ -1233,11 +1258,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the Markdown 'autolink' feature in CommonMark and what are its precise boundaries that distinguish it from regular text?",
       "options": [
         "Autolinks convert any text containing a period to a link",
-        "Autolinks are absolute URIs or email addresses enclosed in angle brackets (<http://example.com>) that CommonMark converts to links — requiring angle brackets to prevent false positives on URL-like text in regular content",
         "Autolinks automatically detect and link all URLs in the document",
+        "Autolinks are absolute URIs or email addresses enclosed in angle brackets (<http://example.com>) that CommonMark converts to links — requiring angle brackets to prevent false positives on URL-like text in regular content",
         "CommonMark doesn't support autolinks — they are a GFM extension only"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Links and Images",
       "pageReference": "43",
@@ -1249,11 +1274,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How does mastery of Markdown contribute to the Agent Factory's concept of 'developer leverage' in the agent economy?",
       "options": [
         "Markdown mastery is a basic skill with minimal leverage impact",
-        "Markdown mastery creates leverage by enabling developers to rapidly create high-quality agent instructions, specifications, and documentation that directly improve agent output quality — the quality of written direction compounds through agent execution",
+        "Developer leverage in Agent Factory comes exclusively from programming skills, not writing skills",
         "Markdown is too simple to create meaningful developer leverage",
-        "Developer leverage in Agent Factory comes exclusively from programming skills, not writing skills"
+        "Markdown mastery creates leverage by enabling developers to rapidly create high-quality agent instructions, specifications, and documentation that directly improve agent output quality — the quality of written direction compounds through agent execution"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Why Markdown Matters",
       "pageReference": "33",
@@ -1264,12 +1289,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 81,
       "question": "What is the precise CommonMark rule for when a list marker (like '*' or '1.') creates a new list versus continues an existing paragraph?",
       "options": [
-        "List markers always create new lists regardless of context",
         "List markers only start lists when preceded by a blank line or at document start — within a paragraph, they are treated as literal characters; this context-sensitivity requires explicit blank line insertion in AI-generated content",
+        "List markers always create new lists regardless of context",
         "List markers always continue the existing paragraph context",
         "The interpretation depends on the list marker type, not context"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "Lists",
       "pageReference": "39",
@@ -1297,11 +1322,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the technical reason that Markdown's inline HTML support requires understanding of CommonMark's block/inline HTML distinction for building reliable agent documentation systems?",
       "options": [
         "Inline HTML is forbidden in agent documentation for security reasons",
-        "CommonMark treats block HTML (elements starting on their own line) and inline HTML (within paragraph flow) differently — block HTML disables Markdown processing within it, while inline HTML coexists with Markdown; misunderstanding this boundary causes unexpected rendering in generated content",
         "Block and inline HTML are processed identically in CommonMark",
+        "CommonMark treats block HTML (elements starting on their own line) and inline HTML (within paragraph flow) differently — block HTML disables Markdown processing within it, while inline HTML coexists with Markdown; misunderstanding this boundary causes unexpected rendering in generated content",
         "HTML support in Markdown is deprecated and should not be used in new documents"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "CommonMark Standard",
       "pageReference": "50",
@@ -1313,11 +1338,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How does Markdown's role in the Agent Factory ecosystem reflect the principle that 'the best interface for communicating with AI is structured natural language'?",
       "options": [
         "AI communication is best done through programming languages, not natural language",
-        "Markdown bridges the gap between human natural language readability and machine-parseable structure — its lightweight syntax imposes just enough structure to be reliably processed while remaining natural enough for humans to write and read fluently",
+        "The principle of structured natural language only applies to conversational AI, not agent instructions",
         "Markdown is unnatural language and contrary to this principle",
-        "The principle of structured natural language only applies to conversational AI, not agent instructions"
+        "Markdown bridges the gap between human natural language readability and machine-parseable structure — its lightweight syntax imposes just enough structure to be reliably processed while remaining natural enough for humans to write and read fluently"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Why Markdown Matters",
       "pageReference": "31",
@@ -1328,12 +1353,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 85,
       "question": "What is the comprehensive Agent Factory perspective on why Markdown proficiency is a 'force multiplier' skill for AI agent developers?",
       "options": [
-        "Markdown is a basic skill with linear, not multiplicative, impact on productivity",
         "Markdown proficiency multiplies impact across all agent development phases: specification writing (better specs = better agents), documentation (better docs = faster onboarding), instruction engineering (better prompts = better outputs), and system design (better structure = clearer thinking) — improving all output through a single skill",
+        "Markdown is a basic skill with linear, not multiplicative, impact on productivity",
         "Force multiplication in agent development comes only from programming expertise",
         "Markdown's impact is limited to documentation phases and doesn't affect agent performance"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "Why Markdown Matters",
       "pageReference": "34",
@@ -1361,11 +1386,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "According to Agent Factory, why does markdown stay in Layer 1 (Intent Layer) and not move to other layers?",
       "options": [
         "Markdown is too simple for other layers",
-        "The specification represents your intent—the authoritative definition of what should be built—and you have final approval authority. Implementation must match spec, not the other way around",
         "Markdown cannot be parsed by AI",
+        "The specification represents your intent—the authoritative definition of what should be built—and you have final approval authority. Implementation must match spec, not the other way around",
         "Markdown is only for documentation"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Markdown as Intent Layer",
       "pageReference": "56",
@@ -1377,11 +1402,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What are the three layers of AI-Driven Development (AIDD)?",
       "options": [
         "Frontend, Backend, Database",
-        "Intent Layer (you write), Reasoning Layer (AI thinks), Implementation Layer (AI generates code)",
+        "Testing, Integration, Release",
         "Design, Development, Deployment",
-        "Testing, Integration, Release"
+        "Intent Layer (you write), Reasoning Layer (AI thinks), Implementation Layer (AI generates code)"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "AIDD Layers",
       "pageReference": "56",
@@ -1392,12 +1417,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 89,
       "question": "What is the bridge between human intent and AI execution in AI-Driven Development?",
       "options": [
-        "Programming languages",
         "Markdown specifications",
+        "Programming languages",
         "Database schemas",
         "Cloud infrastructure"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Markdown as Intent Layer",
       "pageReference": "56",
@@ -1409,11 +1434,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What does using **bold** markdown syntax indicate in specifications?",
       "options": [
         "Text is optional and nice-to-have",
-        "Text should be displayed prominently in the UI",
         "Critical requirements that AI should prioritize",
+        "Text should be displayed prominently in the UI",
         "Text is just for visual emphasis"
       ],
-      "correct": 2,
+      "correct": 1,
       "difficulty": "medium",
       "topic": "Text Emphasis",
       "pageReference": "58",
@@ -1441,11 +1466,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What does ***triple asterisk*** markdown syntax represent?",
       "options": [
         "A link to an external resource",
-        "Bold and italic combined—absolute requirements or security warnings",
+        "An error in markdown syntax",
         "A code block indicator",
-        "An error in markdown syntax"
+        "Bold and italic combined—absolute requirements or security warnings"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Text Emphasis",
       "pageReference": "58",
@@ -1456,12 +1481,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 93,
       "question": "What is the difference between [link syntax] and ![image syntax]?",
       "options": [
-        "They create the same thing",
         "[text](url) creates a clickable link to navigate. ![text](url) embeds image inline. The ! means 'show here' vs 'take me there'",
+        "They create the same thing",
         "Images are created with [syntax], links with ![syntax]",
         "There is no practical difference"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Links and Images",
       "pageReference": "59",
@@ -1505,11 +1530,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How do you display a literal # symbol in markdown without creating a heading?",
       "options": [
         "Use **#** with bold",
-        "Use \\# with a backslash escape",
+        "It's impossible in markdown",
         "Use a space after the # like # text",
-        "It's impossible in markdown"
+        "Use \\# with a backslash escape"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Escaping Special Characters",
       "pageReference": "60",
@@ -1520,12 +1545,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 97,
       "question": "How many spaces does a single newline require in markdown to create a paragraph break?",
       "options": [
-        "One space",
-        "Two spaces at end of line",
         "No spaces—single newline doesn't create paragraph break; you need a blank line (double newline)",
+        "Two spaces at end of line",
+        "One space",
         "Four spaces"
       ],
-      "correct": 2,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "Newline Handling",
       "pageReference": "61",
@@ -1537,11 +1562,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "In markdown, what is the relationship between text clarity and AI output quality?",
       "options": [
         "There is no relationship",
-        "Vague specifications produce excellent code",
         "Clear, structured text with low ambiguity produces better AI implementation",
+        "Vague specifications produce excellent code",
         "AI output quality depends only on the AI model, not on input clarity"
       ],
-      "correct": 2,
+      "correct": 1,
       "difficulty": "medium",
       "topic": "Markdown for AI",
       "pageReference": "57",
@@ -1553,11 +1578,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What does 'structured text' mean in the context of markdown?",
       "options": [
         "Text that is decorated with colors",
-        "Text organized with semantic markers (headings, lists, emphasis) that communicate hierarchy and meaning",
         "Text that follows grammar rules",
+        "Text organized with semantic markers (headings, lists, emphasis) that communicate hierarchy and meaning",
         "Text that is written in plain English"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Structured vs Unstructured Text",
       "pageReference": "55",
@@ -1569,11 +1594,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "Why does Agent Factory emphasize that 'structure is communication' in markdown?",
       "options": [
         "Structure just makes text look nicer",
-        "The structure itself (headings, lists, code blocks) communicates intent to AI. Headings say 'this section is about...', lists say 'these are distinct items'",
+        "Structure has no impact on AI comprehension",
         "Structure is only for human readability",
-        "Structure has no impact on AI comprehension"
+        "The structure itself (headings, lists, code blocks) communicates intent to AI. Headings say 'this section is about...', lists say 'these are distinct items'"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Structured vs Unstructured Text",
       "pageReference": "55",
@@ -1584,12 +1609,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 101,
       "question": "What is 'CommonMark' in the markdown context?",
       "options": [
-        "A programming language",
-        "The most common way to write markdown",
         "A standardized, unambiguous specification for markdown syntax created to resolve inconsistencies",
+        "The most common way to write markdown",
+        "A programming language",
         "A tool for converting markdown to HTML"
       ],
-      "correct": 2,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Markdown Standards",
       "pageReference": "54",
@@ -1617,11 +1642,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What are the three main real-world contexts where you'll use markdown according to Agent Factory?",
       "options": [
         "Creating binary files, designing databases, building APIs",
-        "GitHub README files, specifications for AI agents, documentation sites",
         "Writing essays, creating presentations, sending emails",
+        "GitHub README files, specifications for AI agents, documentation sites",
         "Building user interfaces, styling CSS, optimizing performance"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Real-World Markdown Usage",
       "pageReference": "57",
@@ -1633,11 +1658,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the 'Verification Framework' that Agent Factory introduces for checking AI responses?",
       "options": [
         "A security protocol for protecting code",
-        "4-step process: (1) Check against what you know, (2) Ask AI to explain reasoning, (3) Test specific claims, (4) Cross-reference when unsure",
+        "A database validation system",
         "A framework for testing markdown syntax",
-        "A database validation system"
+        "4-step process: (1) Check against what you know, (2) Ask AI to explain reasoning, (3) Test specific claims, (4) Cross-reference when unsure"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "AI Response Verification",
       "pageReference": "57",
@@ -1648,12 +1673,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 105,
       "question": "According to the Verification Framework, what is the critical mindset when working with AI feedback?",
       "options": [
-        "Always trust AI completely",
-        "Never trust AI at all",
         "AI is a thinking partner, not an authority. Verify responses before accepting them",
+        "Never trust AI at all",
+        "Always trust AI completely",
         "AI mistakes are always obvious"
       ],
-      "correct": 2,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "AI Response Verification",
       "pageReference": "57",
@@ -1665,11 +1690,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "Why is 'showing work' important when asking AI to review your markdown?",
       "options": [
         "It helps AI generate longer responses",
-        "It's unnecessary for technical reviews",
         "It forces AI to demonstrate its reasoning (like showing work in math) rather than just stating 'yes, that's correct'",
+        "It's unnecessary for technical reviews",
         "Showing work only matters in school"
       ],
-      "correct": 2,
+      "correct": 1,
       "difficulty": "medium",
       "topic": "AI Response Verification",
       "pageReference": "57",
@@ -1681,11 +1706,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is 'heading hierarchy' and why is it important in markdown specifications?",
       "options": [
         "Heading hierarchy is just a visual preference",
-        "The logical nesting of heading levels (# → ## → ### etc.) that organizes document structure and AI comprehension",
         "Heading hierarchy only matters for web design",
+        "The logical nesting of heading levels (# → ## → ### etc.) that organizes document structure and AI comprehension",
         "There is no such thing as heading hierarchy"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Document Hierarchy",
       "pageReference": "55",
@@ -1697,11 +1722,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the 'anti-pattern' of skipping heading levels in markdown (e.g., going from # directly to ###)?",
       "options": [
         "Skipping levels is always fine",
-        "Skipping levels breaks hierarchy, confuses readers and AI about document structure, and breaks accessibility for screen readers",
+        "This practice has no negative consequences",
         "Skipping levels only affects visual appearance",
-        "This practice has no negative consequences"
+        "Skipping levels breaks hierarchy, confuses readers and AI about document structure, and breaks accessibility for screen readers"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Document Hierarchy",
       "pageReference": "55",
@@ -1712,12 +1737,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 109,
       "question": "How does markdown help with 'token boundaries' for AI processing?",
       "options": [
-        "Markdown has nothing to do with token processing",
         "Markdown structure (headings, lists) creates clear token boundaries and 'attention cues' that help AI focus on relevant sections",
+        "Markdown has nothing to do with token processing",
         "Tokens are only relevant for security",
         "Markdown increases the number of tokens"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "AI Processing of Markdown",
       "pageReference": "55",
@@ -1745,11 +1770,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How do you create a nested list in markdown?",
       "options": [
         "By using larger font sizes",
-        "By using more spaces/tabs for indentation to create sub-levels",
         "It's impossible to nest lists",
+        "By using more spaces/tabs for indentation to create sub-levels",
         "By using different heading levels"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Lists",
       "pageReference": "58",
@@ -1761,11 +1786,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What distinguishes 'unordered lists' from 'ordered lists' in markdown specifications?",
       "options": [
         "They render the same way",
-        "Unordered (-, *, +) for groups of equal items; ordered (1. 2. 3.) when sequence/priority matters",
+        "There is no practical difference",
         "Ordered lists are more professional than unordered",
-        "There is no practical difference"
+        "Unordered (-, *, +) for groups of equal items; ordered (1. 2. 3.) when sequence/priority matters"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Lists",
       "pageReference": "58",
@@ -1776,12 +1801,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 113,
       "question": "Why does markdown syntax `- [ ]` matter in GitHub Flavored Markdown?",
       "options": [
-        "It creates italic text",
         "It creates task lists—checkboxes that track completion status in specifications",
+        "It creates italic text",
         "It's only for decorative purposes",
         "It creates numbered lists"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "GitHub Flavored Markdown",
       "pageReference": "54",
@@ -1809,11 +1834,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the purpose of 'validation checklists' in markdown practice exercises?",
       "options": [
         "They're optional suggestions",
-        "They provide objective criteria to verify your specification is complete and correct",
         "They're only for advanced learners",
+        "They provide objective criteria to verify your specification is complete and correct",
         "Validation checklists replace the need for learning markdown"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Specification Validation",
       "pageReference": "61",
@@ -1825,11 +1850,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is a 'code block' in markdown and when should you use it in specifications?",
       "options": [
         "Code blocks are only for programmers",
-        "Code blocks display formatted code or expected output—use to show examples of what the app prints or how to run it",
+        "Code blocks cannot display output examples",
         "Code blocks are decorative only",
-        "Code blocks cannot display output examples"
+        "Code blocks display formatted code or expected output—use to show examples of what the app prints or how to run it"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Code Blocks",
       "pageReference": "59",
@@ -1840,12 +1865,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 117,
       "question": "What does adding a language name after opening triple backticks (```python) do in markdown?",
       "options": [
-        "It has no effect",
         "It enables syntax highlighting for that programming language",
+        "It has no effect",
         "It restricts the code block to only Python code",
         "It makes the code block larger"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Code Blocks",
       "pageReference": "59",
@@ -1873,11 +1898,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is the best practice for using images in README documentation?",
       "options": [
         "Use as many images as possible",
-        "Use images strategically: 1 logo/banner, 1-2 key screenshots, diagrams only when words aren't enough",
         "Avoid images entirely",
+        "Use images strategically: 1 logo/banner, 1-2 key screenshots, diagrams only when words aren't enough",
         "Image count doesn't matter"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Links and Images",
       "pageReference": "59",
@@ -1889,11 +1914,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What should alt text for images describe?",
       "options": [
         "The filename only",
-        "WHAT the image shows (not just what it IS)—detailed description so AI and screen readers understand content",
+        "Generic descriptions like 'image'",
         "Alt text is optional",
-        "Generic descriptions like 'image'"
+        "WHAT the image shows (not just what it IS)—detailed description so AI and screen readers understand content"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Links and Images",
       "pageReference": "59",
@@ -1904,12 +1929,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 121,
       "question": "In markdown, how do you display a literal asterisk or bracket that would normally be interpreted as formatting?",
       "options": [
-        "You cannot escape characters",
         "Use backslash before the character: \\* for literal asterisk, \\[ for literal bracket",
+        "You cannot escape characters",
         "Use HTML entities",
         "Put the character in quotes"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Escaping Special Characters",
       "pageReference": "60",
@@ -1937,11 +1962,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What happens if you write text on a single line with just one newline between lines in markdown?",
       "options": [
         "Creates separate paragraphs",
-        "Joins both lines into the SAME paragraph (no paragraph break)",
         "Creates a page break",
+        "Joins both lines into the SAME paragraph (no paragraph break)",
         "Requires escape characters"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Newline Handling",
       "pageReference": "61",
@@ -1953,11 +1978,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How do you create a paragraph break in markdown?",
       "options": [
         "Single newline (Enter once)",
-        "Two consecutive newlines (blank line between paragraphs)",
+        "Paragraph breaks happen automatically",
         "Use the <br> tag",
-        "Paragraph breaks happen automatically"
+        "Two consecutive newlines (blank line between paragraphs)"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Newline Handling",
       "pageReference": "61",
@@ -1968,12 +1993,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 125,
       "question": "Why is relative path image reference (`./images/diagram.png`) important for AI-native development?",
       "options": [
-        "Relative paths are just one option",
         "AI agents often generate diagrams and save them locally. Relative paths prepare you for this workflow",
+        "Relative paths are just one option",
         "Relative paths don't work in markdown",
         "Only absolute paths work in specifications"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "Links and Images",
       "pageReference": "59",
@@ -2001,11 +2026,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "Why does Agent Factory teach markdown proficiency as a 'universal skill' for AI-native development?",
       "options": [
         "Markdown is a programming language",
-        "Markdown bridges human intent and AI execution across all development phases—specs, documentation, prompts, communication",
         "Markdown is only for professional developers",
+        "Markdown bridges human intent and AI execution across all development phases—specs, documentation, prompts, communication",
         "This skill doesn't have universal application"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Why Markdown Matters",
       "pageReference": "54",
@@ -2017,11 +2042,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "How does 'structured text' help AI agents make better decisions during implementation?",
       "options": [
         "Structure has no impact on AI decisions",
-        "Clear structure with bold/italic emphasis helps AI distinguish hard requirements from optional enhancements, enabling appropriate trade-offs",
+        "Structure only affects human readers",
         "AI makes the same decisions regardless of structure",
-        "Structure only affects human readers"
+        "Clear structure with bold/italic emphasis helps AI distinguish hard requirements from optional enhancements, enabling appropriate trade-offs"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "AI Processing of Markdown",
       "pageReference": "55",
@@ -2032,12 +2057,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 129,
       "question": "What is the relationship between markdown clarity and development efficiency in Agent Factory?",
       "options": [
-        "Clarity doesn't affect development speed",
         "Clear markdown specs reduce ambiguity, enabling faster AI implementation and fewer rounds of revision",
+        "Clarity doesn't affect development speed",
         "Complexity always requires more time",
         "Development speed is random"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "Why Markdown Matters",
       "pageReference": "54",
@@ -2065,11 +2090,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "Why should you avoid using multiple Level 1 headings in a single markdown document?",
       "options": [
         "Multiple H1s render the same as single H1",
-        "A document should have ONE H1 (document title), then ## for main sections. Multiple H1s break hierarchy and confuse readers/AI",
         "Multiple H1s are required",
+        "A document should have ONE H1 (document title), then ## for main sections. Multiple H1s break hierarchy and confuse readers/AI",
         "This has no consequences"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Document Hierarchy",
       "pageReference": "55",
@@ -2081,11 +2106,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "What is a 'blockquote' in markdown and how is it created?",
       "options": [
         "A code block",
-        "Text preceded by > symbol, used for quoted or highlighted text",
+        "Blockquotes don't exist in markdown",
         "A large bold text",
-        "Blockquotes don't exist in markdown"
+        "Text preceded by > symbol, used for quoted or highlighted text"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Markdown Syntax",
       "pageReference": "59",
@@ -2096,12 +2121,12 @@ window.QUIZ_DATA_CHAPTER2 = {
       "id": 133,
       "question": "Why would you use markdown tables (a GFM feature) in a specification?",
       "options": [
-        "Tables are only for spreadsheets",
         "Tables organize information into rows/columns—perfect for requirements matrices, feature comparison, or structured data in specifications",
+        "Tables are only for spreadsheets",
         "Tables don't work in markdown",
         "Specifications should never use tables"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "GitHub Flavored Markdown",
       "pageReference": "54",
@@ -2129,11 +2154,11 @@ window.QUIZ_DATA_CHAPTER2 = {
       "question": "According to Agent Factory, what makes markdown 'the universal language between humans and AI'?",
       "options": [
         "Markdown is a programming language",
-        "Markdown is human-readable (plain text) AND machine-parseable (structure signals)—bridges both audiences simultaneously",
         "Markdown is only for human communication",
+        "Markdown is human-readable (plain text) AND machine-parseable (structure signals)—bridges both audiences simultaneously",
         "AI cannot parse markdown"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Why Markdown Matters",
       "pageReference": "54",
