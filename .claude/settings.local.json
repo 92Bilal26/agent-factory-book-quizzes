@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "for creating quiz for chapter 2 then start chapter 3 and create quiz with permissio mean till chapter 3 claude not need to get permission"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
