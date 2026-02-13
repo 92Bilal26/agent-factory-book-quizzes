@@ -8,8 +8,13 @@ window.QUIZ_DATA_CHAPTER1 = {
     {
       "id": 1,
       "question": "What year is described as the '2025 Inflection Point' in the Agent Factory paradigm?",
-      "options": ["2023", "2024", "2025", "2026"],
-      "correct": 2,
+      "options": [
+        "2025",
+        "2024",
+        "2023",
+        "2026"
+      ],
+      "correct": 0,
       "difficulty": "easy",
       "topic": "2025 Inflection Point",
       "pageReference": "1",
@@ -37,11 +42,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "In the Agent Maturity Model, what is the first/lowest level of agent capability?",
       "options": [
         "Autonomous Agent",
-        "Incubator Agent",
         "Specialist Agent",
+        "Incubator Agent",
         "Custom Agent"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Agent Maturity Model",
       "pageReference": "8",
@@ -53,11 +58,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What distinguishes a 'General Agent' from a 'Custom Agent'?",
       "options": [
         "General agents are more expensive to run",
-        "General agents handle broad tasks while custom agents are purpose-built for specific domains",
+        "General agents only work with open-source models",
         "Custom agents are easier to build than general agents",
-        "General agents only work with open-source models"
+        "General agents handle broad tasks while custom agents are purpose-built for specific domains"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "General vs Custom Agents",
       "pageReference": "12",
@@ -68,12 +73,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 5,
       "question": "What is the 'Developer Economy' in the context of Agent Factory?",
       "options": [
-        "The salary range of software developers",
         "The economic ecosystem created by developers building and selling AI agents",
+        "The salary range of software developers",
         "A programming language for agents",
         "The cost of cloud computing for AI"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Developer Economy",
       "pageReference": "18",
@@ -85,11 +90,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "Which term describes an agent that has evolved from general capabilities to deep expertise in a specific domain?",
       "options": [
         "General Agent",
-        "Incubator Agent",
         "Specialist Agent",
+        "Incubator Agent",
         "Foundation Agent"
       ],
-      "correct": 2,
+      "correct": 1,
       "difficulty": "easy",
       "topic": "Incubator to Specialist Evolution",
       "pageReference": "22",
@@ -101,11 +106,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What fundamental shift does the 2025 Inflection Point represent for software development?",
       "options": [
         "The end of human programming",
-        "The transition from writing code to directing agents that write code",
         "The replacement of all databases with AI",
+        "The transition from writing code to directing agents that write code",
         "The elimination of software testing"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "2025 Inflection Point",
       "pageReference": "3",
@@ -117,11 +122,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "In the Agent Factory paradigm, what is meant by 'production-ready' agents?",
       "options": [
         "Agents that can only run in development environments",
-        "Agents that are reliable, scalable, and suitable for real-world business use",
+        "Agents that cost more than $1000 per month to operate",
         "Agents built with specific programming languages",
-        "Agents that cost more than $1000 per month to operate"
+        "Agents that are reliable, scalable, and suitable for real-world business use"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Agent Factory Paradigm",
       "pageReference": "4",
@@ -132,12 +137,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 9,
       "question": "What role does Claude Code play in the Agent Factory ecosystem?",
       "options": [
-        "It is only used for writing documentation",
         "It serves as a general-purpose coding agent and foundation for building custom agents",
+        "It is only used for writing documentation",
         "It is a database management tool",
         "It only handles frontend development tasks"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "General vs Custom Agents",
       "pageReference": "14",
@@ -165,11 +170,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "According to the Agent Factory book, what type of economy emerges as agents become more capable?",
       "options": [
         "A command economy controlled by AI companies",
-        "A creator and developer economy where individuals build valuable agent products",
         "A barter economy among developers",
+        "A creator and developer economy where individuals build valuable agent products",
         "A regulated monopoly in AI services"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Developer Economy",
       "pageReference": "19",
@@ -181,11 +186,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is the primary purpose of the Agent Maturity Model?",
       "options": [
         "To rank AI companies by their market capitalization",
-        "To provide a framework for understanding and measuring agent capability progression",
+        "To determine agent pricing structures",
         "To certify developers as AI experts",
-        "To determine agent pricing structures"
+        "To provide a framework for understanding and measuring agent capability progression"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Agent Maturity Model",
       "pageReference": "8",
@@ -196,12 +201,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 13,
       "question": "In Agent Factory terminology, what is an 'Incubator Agent'?",
       "options": [
-        "An agent designed to hatch other agents",
         "An early-stage agent being developed and refined before specialization",
+        "An agent designed to hatch other agents",
         "An agent that manages server infrastructure",
         "A deprecated type of AI model"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Incubator to Specialist Evolution",
       "pageReference": "22",
@@ -229,11 +234,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "Which of the following best describes a 'workflow' in the Agent Factory context?",
       "options": [
         "A type of database schema",
-        "A series of coordinated agent actions designed to complete a specific task or process",
         "A user interface component",
+        "A series of coordinated agent actions designed to complete a specific task or process",
         "A method for compressing large files"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Agent Factory Paradigm",
       "pageReference": "7",
@@ -245,11 +250,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does 'MCP' stand for in the Agent Factory ecosystem?",
       "options": [
         "Machine Control Protocol",
-        "Model Context Protocol",
+        "Managed Computing Platform",
         "Multi-Channel Processing",
-        "Managed Computing Platform"
+        "Model Context Protocol"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Agent Factory Paradigm",
       "pageReference": "15",
@@ -260,12 +265,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 17,
       "question": "In the context of Agent Factory, what does 'agentic loop' refer to?",
       "options": [
-        "A type of software bug in AI systems",
         "The continuous cycle of perception, reasoning, action, and observation that agents perform",
+        "A type of software bug in AI systems",
         "A networking protocol for AI communication",
         "A method for backing up agent data"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Agent Factory Paradigm",
       "pageReference": "9",
@@ -293,11 +298,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "According to Agent Factory, what skill becomes most valuable for developers in the agent era?",
       "options": [
         "Writing assembly language code",
-        "The ability to effectively direct, configure, and orchestrate AI agents",
         "Manual testing and QA processes",
+        "The ability to effectively direct, configure, and orchestrate AI agents",
         "Database administration"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Developer Economy",
       "pageReference": "20",
@@ -309,11 +314,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is the significance of the year 2025 in relation to AI agent deployment?",
       "options": [
         "It is when AI was first invented",
-        "It marks when agents transition from experimental curiosities to production-grade tools",
+        "It marks the end of traditional programming",
         "It is when all AI companies were founded",
-        "It marks the end of traditional programming"
+        "It marks when agents transition from experimental curiosities to production-grade tools"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "2025 Inflection Point",
       "pageReference": "1",
@@ -324,12 +329,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 21,
       "question": "What is 'tool use' in the context of AI agents?",
       "options": [
-        "Using physical tools like keyboards",
         "The ability of agents to call external APIs, run code, search the web, and interact with systems",
+        "Using physical tools like keyboards",
         "A feature only available in premium AI subscriptions",
         "The process of training AI on tool manuals"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Agent Factory Paradigm",
       "pageReference": "10",
@@ -357,11 +362,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What problem does the Agent Factory methodology solve for businesses?",
       "options": [
         "It solves hardware procurement challenges",
-        "It provides a systematic way to build reliable, scalable AI agent systems",
         "It eliminates the need for business strategy",
+        "It provides a systematic way to build reliable, scalable AI agent systems",
         "It replaces all human customer service"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Agent Factory Paradigm",
       "pageReference": "4",
@@ -373,11 +378,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does 'context window' mean for AI agents?",
       "options": [
         "The physical screen size used by the agent",
-        "The maximum amount of information an agent can process at one time",
+        "The time window during which an agent is active",
         "A security feature that limits agent access",
-        "The time window during which an agent is active"
+        "The maximum amount of information an agent can process at one time"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Agent Factory Paradigm",
       "pageReference": "11",
@@ -388,12 +393,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 25,
       "question": "According to the Agent Factory paradigm, how do agents 'learn' in production?",
       "options": [
-        "Through continuous unsupervised neural network training",
         "Through updated prompts, instructions, tools, and feedback incorporated by developers",
+        "Through continuous unsupervised neural network training",
         "By reading all internet content daily",
         "Through genetic algorithms that evolve automatically"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Agent Factory Paradigm",
       "pageReference": "16",
@@ -421,11 +426,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "In the Agent Maturity Model, what happens as an agent moves from Incubator to Specialist?",
       "options": [
         "The agent becomes more expensive but less capable",
-        "The agent gains focused expertise, reliability, and consistent high performance in its domain",
         "The agent loses its general capabilities permanently",
+        "The agent gains focused expertise, reliability, and consistent high performance in its domain",
         "The agent requires more human supervision over time"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Agent Maturity Model",
       "pageReference": "24",
@@ -437,11 +442,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does 'autonomous agent' mean in the Agent Factory framework?",
       "options": [
         "An agent that works completely independently without any human direction ever",
-        "An agent capable of completing multi-step tasks with minimal human intervention",
+        "An agent that costs nothing to operate",
         "An agent built by robots for robots",
-        "An agent that costs nothing to operate"
+        "An agent capable of completing multi-step tasks with minimal human intervention"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Agent Maturity Model",
       "pageReference": "9",
@@ -452,12 +457,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 29,
       "question": "According to Agent Factory, what is the most important factor for agent reliability in production?",
       "options": [
-        "Using the most expensive AI model available",
         "Clear, well-structured instructions combined with appropriate tools and guardrails",
+        "Using the most expensive AI model available",
         "Running agents on the fastest hardware",
         "Using only one agent for all tasks"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Agent Factory Paradigm",
       "pageReference": "5",
@@ -485,11 +490,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What specific economic model does the Agent Factory Developer Economy most closely resemble?",
       "options": [
         "The traditional enterprise software licensing model",
-        "The app store economy where individuals build and distribute valuable software products at scale",
         "The open-source donation model",
+        "The app store economy where individuals build and distribute valuable software products at scale",
         "The government-funded research model"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Developer Economy",
       "pageReference": "19",
@@ -501,11 +506,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What distinguishes the 2025 Inflection Point from earlier periods of AI advancement?",
       "options": [
         "AI models became 10x larger than before",
-        "The convergence of capable models, tool use, extended context, and accessible APIs made production deployment practical",
+        "The cost of AI computing dropped to zero",
         "Government regulations forced AI deployment",
-        "The cost of AI computing dropped to zero"
+        "The convergence of capable models, tool use, extended context, and accessible APIs made production deployment practical"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "2025 Inflection Point",
       "pageReference": "3",
@@ -516,12 +521,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 33,
       "question": "In the Agent Maturity Model, what criteria determine when an agent advances from one level to the next?",
       "options": [
-        "The number of lines of code in the agent",
         "Demonstrated reliability, expanded capability, reduced error rates, and successful task completion metrics",
+        "The number of lines of code in the agent",
         "The age of the agent in production",
         "The amount spent on model API calls"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "Agent Maturity Model",
       "pageReference": "10",
@@ -549,11 +554,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is the key architectural difference between a single-agent system and a multi-agent system in Agent Factory?",
       "options": [
         "Single-agent systems are always faster than multi-agent systems",
-        "Multi-agent systems divide complex work across specialized agents with orchestration, enabling parallelism and specialization",
         "Multi-agent systems require more expensive hardware exclusively",
+        "Multi-agent systems divide complex work across specialized agents with orchestration, enabling parallelism and specialization",
         "Single-agent systems are more reliable in all scenarios"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Agent Factory Paradigm",
       "pageReference": "7",
@@ -565,11 +570,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "According to Agent Factory, what is the strategic value of building custom agents over using general agents for business?",
       "options": [
         "Custom agents are always more cost-effective in every scenario",
-        "Custom agents encode institutional knowledge, business rules, and domain expertise that compound over time",
+        "Custom agents can run entirely offline without any API costs",
         "Custom agents eliminate the need for any human employees",
-        "Custom agents can run entirely offline without any API costs"
+        "Custom agents encode institutional knowledge, business rules, and domain expertise that compound over time"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "General vs Custom Agents",
       "pageReference": "13",
@@ -580,12 +585,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 37,
       "question": "In the evolution from Incubator to Specialist, what role does iteration play?",
       "options": [
-        "Iteration is avoided as it creates inconsistency",
         "Systematic iteration based on performance data refines the agent's capabilities and builds reliable specialization",
+        "Iteration is avoided as it creates inconsistency",
         "Iteration only involves retraining the underlying model",
         "Iteration is only needed for failed agents, not successful ones"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "Incubator to Specialist Evolution",
       "pageReference": "25",
@@ -613,11 +618,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does the Developer Economy in Agent Factory create value differently from traditional software consulting?",
       "options": [
         "Developers charge hourly rates exactly like traditional consulting",
-        "Developers build reusable agent products with recurring value rather than one-time custom projects",
         "The Developer Economy only benefits large companies, not individual developers",
+        "Developers build reusable agent products with recurring value rather than one-time custom projects",
         "Traditional consulting is more profitable than the Developer Economy"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Developer Economy",
       "pageReference": "20",
@@ -629,11 +634,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does 'agent composition' mean in the Agent Factory architecture?",
       "options": [
         "Writing music using AI agents",
-        "Building complex agent systems by combining simpler agents in structured patterns",
+        "The format in which agents store their memory",
         "Compressing agent models to reduce size",
-        "The format in which agents store their memory"
+        "Building complex agent systems by combining simpler agents in structured patterns"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Agent Factory Paradigm",
       "pageReference": "7",
@@ -644,12 +649,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 41,
       "question": "In the Agent Maturity Model, what characterizes the 'plateau of productivity' phase?",
       "options": [
-        "Agents stop improving entirely",
         "Agents achieve stable, reliable performance that consistently delivers business value with predictable outcomes",
+        "Agents stop improving entirely",
         "Agents require more resources than they were originally allocated",
         "The agent is retired and replaced by a newer model"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "Agent Maturity Model",
       "pageReference": "11",
@@ -677,11 +682,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does the Agent Factory paradigm define the relationship between human developers and AI agents?",
       "options": [
         "AI agents are completely replacing human developers",
-        "Humans serve as directors and architects while agents handle execution — a collaborative partnership",
         "Humans are merely observers with no active role",
+        "Humans serve as directors and architects while agents handle execution — a collaborative partnership",
         "Agents and humans compete for the same tasks"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Agent Factory Paradigm",
       "pageReference": "5",
@@ -693,11 +698,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What distinguishes 'reactive agents' from 'proactive agents' in the Agent Factory framework?",
       "options": [
         "Reactive agents are slower than proactive agents",
-        "Reactive agents respond to triggers while proactive agents anticipate needs and initiate actions independently",
+        "There is no meaningful distinction between these agent types",
         "Proactive agents require more expensive models",
-        "There is no meaningful distinction between these agent types"
+        "Reactive agents respond to triggers while proactive agents anticipate needs and initiate actions independently"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Agent Factory Paradigm",
       "pageReference": "9",
@@ -708,12 +713,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 45,
       "question": "In Agent Factory's view, what makes the 2025 period different from the 'trough of disillusionment' that preceded it?",
       "options": [
-        "AI models became sentient in 2025",
         "The combination of improved reasoning, reliable tool use, and practical deployment patterns resolved earlier production failures",
+        "AI models became sentient in 2025",
         "All competing AI companies merged into one",
         "Quantum computing made AI much faster"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "2025 Inflection Point",
       "pageReference": "2",
@@ -741,11 +746,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "According to Agent Factory, how should businesses prioritize which processes to 'agentify' first?",
       "options": [
         "Start with the most complex processes to demonstrate maximum capability",
-        "Start with high-volume, rule-based processes where errors have limited consequences and iteration is easy",
         "Prioritize only processes that involve large amounts of data",
+        "Start with high-volume, rule-based processes where errors have limited consequences and iteration is easy",
         "Always agentify customer-facing processes first regardless of complexity"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Agent Factory Paradigm",
       "pageReference": "6",
@@ -757,11 +762,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is the role of 'memory systems' in enabling agents to reach Specialist maturity?",
       "options": [
         "Memory systems only store agent configuration files",
-        "Memory systems enable agents to retain context, learn from past interactions, and build institutional knowledge over time",
+        "Memory is irrelevant for agent maturity",
         "Memory systems exclusively manage API tokens",
-        "Memory is irrelevant for agent maturity"
+        "Memory systems enable agents to retain context, learn from past interactions, and build institutional knowledge over time"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Incubator to Specialist Evolution",
       "pageReference": "26",
@@ -772,12 +777,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 49,
       "question": "How does the Agent Factory paradigm handle the challenge of agent output variability?",
       "options": [
-        "By accepting variability as an inherent, unresolvable AI characteristic",
         "Through structured output formats, validation schemas, retry logic, and deterministic post-processing where needed",
+        "By accepting variability as an inherent, unresolvable AI characteristic",
         "By limiting agents to only yes/no decisions",
         "By running multiple instances simultaneously and merging outputs"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "Agent Factory Paradigm",
       "pageReference": "6",
@@ -805,11 +810,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "In Agent Factory's architecture, what is the conceptual difference between an 'agent' and a 'chain'?",
       "options": [
         "Chains are more intelligent than agents",
-        "A chain follows a predefined sequence of steps while an agent dynamically decides its next action based on context",
         "Agents are always multi-modal while chains are text-only",
+        "A chain follows a predefined sequence of steps while an agent dynamically decides its next action based on context",
         "Chains use more computing resources than agents"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Agent Factory Paradigm",
       "pageReference": "9",
@@ -821,11 +826,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What systemic challenge does the Agent Factory Maturity Model address regarding enterprise AI adoption?",
       "options": [
         "Enterprises adopting AI too quickly without planning",
-        "The mismatch between proof-of-concept success and production failure due to lack of systematic progression frameworks",
+        "The difficulty of hiring AI researchers for every project",
         "Enterprises overspending on AI hardware",
-        "The difficulty of hiring AI researchers for every project"
+        "The mismatch between proof-of-concept success and production failure due to lack of systematic progression frameworks"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Agent Maturity Model",
       "pageReference": "8",
@@ -836,12 +841,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 53,
       "question": "How does the concept of 'agent persona' contribute to building effective custom agents in Agent Factory?",
       "options": [
-        "Agent personas are purely cosmetic and have no functional impact",
         "A well-defined persona shapes the agent's communication style, decision-making framework, and domain-specific behavior patterns",
+        "Agent personas are purely cosmetic and have no functional impact",
         "Personas are only useful for customer-facing chatbots, not technical agents",
         "Agent personas replace the need for detailed system prompts"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "General vs Custom Agents",
       "pageReference": "14",
@@ -869,11 +874,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What economic principle underlies the Agent Factory's prediction that specialized agents will command premium value?",
       "options": [
         "Economies of scale favor general-purpose solutions",
-        "Specialization creates moats through domain expertise that is difficult to replicate quickly",
         "Premium pricing always correlates with development cost",
+        "Specialization creates moats through domain expertise that is difficult to replicate quickly",
         "General agents will always be more expensive due to capability breadth"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Developer Economy",
       "pageReference": "21",
@@ -885,11 +890,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "According to Agent Factory, what is the critical difference between 'supervised autonomy' and 'full autonomy' in agent deployment?",
       "options": [
         "Supervised autonomy is always inferior to full autonomy",
-        "Supervised autonomy includes human checkpoints for critical decisions while full autonomy operates without human intervention",
+        "There is no meaningful distinction — these terms are interchangeable",
         "Full autonomy is only available in premium enterprise AI subscriptions",
-        "There is no meaningful distinction — these terms are interchangeable"
+        "Supervised autonomy includes human checkpoints for critical decisions while full autonomy operates without human intervention"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Agent Maturity Model",
       "pageReference": "12",
@@ -900,12 +905,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 57,
       "question": "How does the Agent Factory framework distinguish between 'agent skills' and 'agent tools'?",
       "options": [
-        "Skills and tools are identical concepts used interchangeably",
         "Tools are external capabilities agents can call, while skills are internalized behavioral patterns encoded in agent instructions",
+        "Skills and tools are identical concepts used interchangeably",
         "Skills are more expensive to implement than tools",
         "Tools are only for technical agents while skills are only for conversational agents"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "General vs Custom Agents",
       "pageReference": "15",
@@ -933,11 +938,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What philosophical shift does the Agent Factory paradigm represent in how we think about software?",
       "options": [
         "Software is now always written by AI with no human input",
-        "Software evolves from static code artifacts to dynamic, intelligent systems that reason and act — a shift from instructions to intelligence",
         "All software should now be built using no-code tools",
+        "Software evolves from static code artifacts to dynamic, intelligent systems that reason and act — a shift from instructions to intelligence",
         "Software development becomes more complex and inaccessible to individual developers"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Agent Factory Paradigm",
       "pageReference": "2",
@@ -949,11 +954,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does the Agent Maturity Model address the 'trust problem' that prevents organizations from deploying agents in high-stakes environments?",
       "options": [
         "By requiring organizations to simply trust AI models blindly",
-        "By providing a staged progression with measurable trust indicators, audit trails, and graduated autonomy expansion tied to demonstrated reliability",
+        "By requiring all agents to be certified by government agencies",
         "By restricting agents to only low-stakes tasks permanently",
-        "By requiring all agents to be certified by government agencies"
+        "By providing a staged progression with measurable trust indicators, audit trails, and graduated autonomy expansion tied to demonstrated reliability"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Agent Maturity Model",
       "pageReference": "12",
@@ -964,12 +969,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 61,
       "question": "What does Agent Factory identify as the 'compounding disadvantage' for organizations that delay AI agent adoption?",
       "options": [
-        "There is no disadvantage to waiting — early adopters always face more problems",
         "Delayed adopters face an exponentially widening capability gap as early adopters accumulate agent expertise, optimized workflows, and compound institutional knowledge",
+        "There is no disadvantage to waiting — early adopters always face more problems",
         "Late adoption is always strategically superior due to more mature technology",
         "The disadvantage is purely financial due to higher API costs for late adopters"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "2025 Inflection Point",
       "pageReference": "4",
@@ -997,11 +1002,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is the 'agent alignment problem' at the organizational level that the Agent Factory paradigm addresses?",
       "options": [
         "Making agents philosophically aligned with human values in an abstract sense",
-        "Ensuring agents reliably pursue organizational goals rather than drifting toward proxies or optimizing for unintended metrics",
         "Aligning agent API costs with budget forecasts",
+        "Ensuring agents reliably pursue organizational goals rather than drifting toward proxies or optimizing for unintended metrics",
         "The technical challenge of connecting multiple AI models"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Agent Factory Paradigm",
       "pageReference": "17",
@@ -1013,11 +1018,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does Agent Factory's concept of 'progressive disclosure of autonomy' work in practice?",
       "options": [
         "Autonomy is granted all at once after a single successful test",
-        "Autonomy is expanded gradually as agents demonstrate reliability — starting with narrow tasks and expanding scope as trust is established through measurable performance",
+        "Autonomy is determined solely by the model's published benchmark scores",
         "Progressive disclosure means agents reveal their reasoning step by step",
-        "Autonomy is determined solely by the model's published benchmark scores"
+        "Autonomy is expanded gradually as agents demonstrate reliability — starting with narrow tasks and expanding scope as trust is established through measurable performance"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Agent Maturity Model",
       "pageReference": "12",
@@ -1028,12 +1033,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 65,
       "question": "What is the Agent Factory perspective on 'emergent capabilities' in custom agents?",
       "options": [
-        "Emergent capabilities are dangerous and should be suppressed through strict prompting",
         "Emergent capabilities can be deliberately cultivated through composition of tools and context, creating agents that exceed the sum of their explicit instructions",
+        "Emergent capabilities are dangerous and should be suppressed through strict prompting",
         "Emergent capabilities only occur in general agents, never in custom agents",
         "Emergent capabilities are a myth that doesn't occur in production agents"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "General vs Custom Agents",
       "pageReference": "14",
@@ -1061,11 +1066,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does Agent Factory identify as the key tension between 'agent autonomy' and 'organizational control', and how is it resolved?",
       "options": [
         "This tension is irresolvable — organizations must choose one or the other",
-        "The tension is resolved through contextual autonomy frameworks that define clear decision boundaries — full autonomy within defined boundaries, mandatory escalation outside them",
         "Organizations should always maximize control, keeping agents in purely assistive roles",
+        "The tension is resolved through contextual autonomy frameworks that define clear decision boundaries — full autonomy within defined boundaries, mandatory escalation outside them",
         "Autonomy and control are not in tension — more autonomy always means better control"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Agent Factory Paradigm",
       "pageReference": "17",
@@ -1077,11 +1082,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is the 'second-order effect' of the Agent Factory Developer Economy on traditional software businesses?",
       "options": [
         "Traditional software businesses will be completely unaffected",
-        "The democratization of software creation through agents will compress margins in commodity software while creating opportunities for highly differentiated agent-powered solutions",
+        "The second-order effect is purely technological with no business model implications",
         "Traditional businesses will become more profitable as they can charge more for manual work",
-        "The second-order effect is purely technological with no business model implications"
+        "The democratization of software creation through agents will compress margins in commodity software while creating opportunities for highly differentiated agent-powered solutions"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Developer Economy",
       "pageReference": "22",
@@ -1092,12 +1097,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 69,
       "question": "How does Agent Factory's concept of 'agent specialization depth' differ from 'agent capability breadth'?",
       "options": [
-        "They are the same concept described differently",
         "Depth means mastering a narrow domain with exceptional quality; breadth means handling many domains adequately — they represent different strategic positions with distinct value propositions",
+        "They are the same concept described differently",
         "Breadth is always superior to depth in commercial applications",
         "Depth requires larger language models while breadth can use smaller models"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "Incubator to Specialist Evolution",
       "pageReference": "24",
@@ -1125,11 +1130,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does the Agent Factory paradigm address the 'organizational capability trap' where companies build dependency on specific AI vendors?",
       "options": [
         "By recommending exclusive partnerships with single AI vendors for simplicity",
-        "Through vendor-agnostic architecture using abstraction layers, open standards like MCP, and modular design that decouples agent logic from model providers",
         "By building all AI capabilities in-house without using any external models",
+        "Through vendor-agnostic architecture using abstraction layers, open standards like MCP, and modular design that decouples agent logic from model providers",
         "The vendor dependency trap is considered acceptable in Agent Factory"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Agent Factory Paradigm",
       "pageReference": "18",
@@ -1141,11 +1146,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is the Agent Factory perspective on 'agent consciousness' and its relevance to production deployment?",
       "options": [
         "Agents must be sentient to be effective in production",
-        "Questions of consciousness are irrelevant to production — what matters is reliable, measurable task performance aligned with business objectives",
+        "Agent Factory requires developers to consider agent welfare as part of governance",
         "Consciousness is a prerequisite for Specialist-level agent maturity",
-        "Agent Factory requires developers to consider agent welfare as part of governance"
+        "Questions of consciousness are irrelevant to production — what matters is reliable, measurable task performance aligned with business objectives"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Agent Factory Paradigm",
       "pageReference": "2",
@@ -1156,12 +1161,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 73,
       "question": "How does the 2025 Inflection Point change the economic calculus for building vs. buying software solutions?",
       "options": [
-        "Buying always remains more cost-effective than building with agents",
         "The ability to build high-quality custom agents rapidly shifts the build-vs-buy calculus, making custom solutions economically viable where they previously were not",
+        "Buying always remains more cost-effective than building with agents",
         "Building with agents is always more expensive than buying commercial software",
         "The build-vs-buy calculus is unchanged by agent capabilities"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "2025 Inflection Point",
       "pageReference": "3",
@@ -1189,11 +1194,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does Agent Factory address the 'capability overhang' problem where models have latent capabilities that aren't accessed through standard prompting?",
       "options": [
         "Capability overhang is irrelevant to practical agent development",
-        "Through systematic capability elicitation via well-structured prompts, appropriate context framing, tool access, and multi-step reasoning scaffolding that surfaces latent model capabilities",
         "By fine-tuning models to remove unused capabilities",
+        "Through systematic capability elicitation via well-structured prompts, appropriate context framing, tool access, and multi-step reasoning scaffolding that surfaces latent model capabilities",
         "By only using capabilities explicitly listed in model documentation"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "General vs Custom Agents",
       "pageReference": "15",
@@ -1205,11 +1210,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is the Agent Factory view on 'agent debt' — the technical and organizational costs of poorly designed agent systems?",
       "options": [
         "Agent debt is acceptable if the agent delivers short-term value",
-        "Agent debt compounds more severely than traditional technical debt because poorly designed agents degrade in reliability as usage scales, making remediation increasingly expensive",
+        "Agent debt is only a concern for large enterprise deployments",
         "Agent debt is easily resolved by switching to a newer AI model",
-        "Agent debt is only a concern for large enterprise deployments"
+        "Agent debt compounds more severely than traditional technical debt because poorly designed agents degrade in reliability as usage scales, making remediation increasingly expensive"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Agent Maturity Model",
       "pageReference": "11",
@@ -1220,12 +1225,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 77,
       "question": "How does the Incubator-to-Specialist evolution path address the 'exploration vs. exploitation' trade-off in agent development?",
       "options": [
-        "Agents should always exploit known capabilities and avoid exploring new approaches",
         "The Incubator phase favors exploration of capabilities while the Specialist phase optimizes exploitation of proven domain patterns — both are essential at different maturity stages",
+        "Agents should always exploit known capabilities and avoid exploring new approaches",
         "Exploration and exploitation are simultaneous and cannot be separated",
         "Specialist agents continue exploring new capabilities at the same rate as Incubators"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "Incubator to Specialist Evolution",
       "pageReference": "27",
@@ -1253,11 +1258,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does Agent Factory's concept of 'agent market positioning' guide the strategy for building commercial agent products?",
       "options": [
         "All agents should target the largest possible market for maximum revenue",
-        "Effective market positioning identifies the specific domain intersection where deep specialization creates 10x value over general alternatives — narrow and deep beats broad and shallow commercially",
         "Market positioning is irrelevant for technical agents — only performance matters",
+        "Effective market positioning identifies the specific domain intersection where deep specialization creates 10x value over general alternatives — narrow and deep beats broad and shallow commercially",
         "Agents should avoid any market positioning to remain flexible"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Developer Economy",
       "pageReference": "22",
@@ -1269,11 +1274,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does Agent Factory identify as the 'critical path' for an organization transitioning from traditional software development to agent-driven development?",
       "options": [
         "Immediately replace all human developers with AI agents",
-        "Build internal agent competency through progressive adoption: start with developer productivity agents, learn the patterns, then extend to business process agents while simultaneously developing organizational governance",
+        "Wait for mature commercial agent platforms to emerge before any adoption",
         "Hire specialized AI consultants to build all agents externally",
-        "Wait for mature commercial agent platforms to emerge before any adoption"
+        "Build internal agent competency through progressive adoption: start with developer productivity agents, learn the patterns, then extend to business process agents while simultaneously developing organizational governance"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Agent Factory Paradigm",
       "pageReference": "5",
@@ -1284,12 +1289,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 81,
       "question": "What is the Agent Factory concept of 'generative leverage' and how does it transform individual developer economics?",
       "options": [
-        "Generative leverage refers to using generative AI only for content creation",
         "Generative leverage is the multiplicative force where a developer's domain expertise, system design skills, and agent direction ability compound into output that far exceeds linear time investment",
+        "Generative leverage refers to using generative AI only for content creation",
         "Generative leverage means agents generate financial leverage for investors",
         "It refers to the technical ability to generate multiple outputs from one prompt"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "Developer Economy",
       "pageReference": "20",
@@ -1317,11 +1322,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is Agent Factory's analysis of the 'talent moat' that organizations can build through early agent expertise development?",
       "options": [
         "Talent moats are irrelevant in the agent era since AI replaces human expertise",
-        "Organizations that develop deep agent architecture expertise early build durable competitive advantages as this skill combines domain knowledge, systems thinking, and AI capability in ways difficult to acquire quickly",
         "Talent moats are less durable than technology moats in the agent era",
+        "Organizations that develop deep agent architecture expertise early build durable competitive advantages as this skill combines domain knowledge, systems thinking, and AI capability in ways difficult to acquire quickly",
         "All organizations will have equal agent talent by 2026 due to democratized tools"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "2025 Inflection Point",
       "pageReference": "4",
@@ -1333,11 +1338,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does the Agent Factory paradigm resolve the tension between 'agent autonomy' needed for business value and 'auditability' required for compliance?",
       "options": [
         "Compliance requirements make autonomous agents impossible in regulated industries",
-        "Through comprehensive structured logging, decision audit trails, deterministic output where required, and human-readable reasoning traces that enable post-hoc auditability without limiting operational autonomy",
+        "Autonomy and auditability are perfectly compatible without any special design considerations",
         "Autonomous agents should not be used in any regulated industry",
-        "Autonomy and auditability are perfectly compatible without any special design considerations"
+        "Through comprehensive structured logging, decision audit trails, deterministic output where required, and human-readable reasoning traces that enable post-hoc auditability without limiting operational autonomy"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Agent Factory Paradigm",
       "pageReference": "17",
@@ -1348,12 +1353,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 85,
       "question": "What does Agent Factory identify as the 'ceiling factor' for how good a custom agent can become without fine-tuning the underlying model?",
       "options": [
-        "Prompt-only custom agents have essentially no ceiling — perfect performance is achievable through prompting alone",
         "The ceiling is determined by the foundational model's inherent capabilities in the domain — prompting and tooling can fully exploit but not exceed the model's fundamental knowledge and reasoning capacity",
+        "Prompt-only custom agents have essentially no ceiling — perfect performance is achievable through prompting alone",
         "The ceiling is solely determined by context window size",
         "Custom agents built without fine-tuning are always inferior to general agents"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "General vs Custom Agents",
       "pageReference": "15",
@@ -1381,11 +1386,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does it mean that LLMs are 'stateless'?",
       "options": [
         "They can only process text, not images or video",
-        "Every API call starts fresh with no memory of previous interactions",
         "They don't require an internet connection",
+        "Every API call starts fresh with no memory of previous interactions",
         "They cannot be deployed in production environments"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Three Core LLM Constraints",
       "pageReference": "27",
@@ -1397,11 +1402,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "In the Agent Factory paradigm, how does an AI system maintain 'memory' of previous conversations if LLMs are stateless?",
       "options": [
         "The LLM has a special memory module that stores information permanently",
-        "The application stores conversation history and re-sends the entire history with each new message",
+        "Stateless LLMs cannot maintain any memory at all",
         "Memory is stored in the cloud and the LLM accesses it automatically",
-        "Stateless LLMs cannot maintain any memory at all"
+        "The application stores conversation history and re-sends the entire history with each new message"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Three Core LLM Constraints",
       "pageReference": "28",
@@ -1412,12 +1417,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 89,
       "question": "What is the primary implication of LLMs being stateless for building production AI agents?",
       "options": [
-        "Agents can only work for a single conversation and must be discarded after",
         "Persistent context like AGENTS.md, SPEC.md, and specifications must be re-injected with every interaction",
+        "Agents can only work for a single conversation and must be discarded after",
         "Production agents cannot be built because they have no memory",
         "Agents must use external databases instead of conversational context"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Three Core LLM Constraints",
       "pageReference": "27",
@@ -1428,12 +1433,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 90,
       "question": "What does 'probabilistic' mean in the context of how LLMs generate responses?",
       "options": [
-        "Responses are generated based on statistical probability distributions rather than a single 'correct' answer",
         "Responses are always wrong and unreliable",
+        "Responses are generated based on statistical probability distributions rather than a single 'correct' answer",
         "Probabilistic means the model uses probability theory to calculate mathematical equations",
         "Probabilistic responses are only used in language translation"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "easy",
       "topic": "Three Core LLM Constraints",
       "pageReference": "29",
@@ -1462,10 +1467,10 @@ window.QUIZ_DATA_CHAPTER1 = {
       "options": [
         "Because AI systems always make mistakes that need fixing",
         "Because identical specifications produce identical outputs",
-        "Because outputs vary due to probabilistic nature—validation ensures outputs meet specification requirements",
-        "Validation is not actually essential in production systems"
+        "Validation is not actually essential in production systems",
+        "Because outputs vary due to probabilistic nature—validation ensures outputs meet specification requirements"
       ],
-      "correct": 2,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Three Core LLM Constraints",
       "pageReference": "29",
@@ -1476,12 +1481,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 93,
       "question": "What is a 'context window' in the context of LLM limitations?",
       "options": [
-        "The time period during which an LLM is active",
         "The maximum amount of text (tokens) an LLM can process at one time",
+        "The time period during which an LLM is active",
         "A security feature that prevents unauthorized access to the model",
         "The graphical interface where users interact with the LLM"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Three Core LLM Constraints",
       "pageReference": "30",
@@ -1493,11 +1498,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "As of 2026, which frontier model has the largest context window?",
       "options": [
         "Claude Opus 4.5 with 200K tokens",
-        "GPT-5.2 with 256K tokens",
         "Gemini 3 Pro with 2M tokens",
+        "GPT-5.2 with 256K tokens",
         "All frontier models have equal context windows"
       ],
-      "correct": 2,
+      "correct": 1,
       "difficulty": "easy",
       "topic": "Three Core LLM Constraints",
       "pageReference": "30",
@@ -1509,11 +1514,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is the primary challenge created by limited context windows in AI-native development?",
       "options": [
         "Limited context windows prevent any AI systems from being useful",
-        "Information gets lost in long conversations, large codebases don't fit entirely, and context allocation becomes zero-sum",
         "Limited context windows are beneficial because they reduce AI hallucinations",
+        "Information gets lost in long conversations, large codebases don't fit entirely, and context allocation becomes zero-sum",
         "Context window limitations only affect toy projects, not production systems"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Three Core LLM Constraints",
       "pageReference": "30",
@@ -1525,11 +1530,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does 'context engineering' help address the challenge of limited context windows?",
       "options": [
         "By eliminating the need for context altogether",
-        "By deciding what information goes into context and what doesn't—prioritizing quality over quantity",
+        "Context engineering makes context windows irrelevant",
         "By increasing the model's context window automatically",
-        "Context engineering makes context windows irrelevant"
+        "By deciding what information goes into context and what doesn't—prioritizing quality over quantity"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Three Core LLM Constraints",
       "pageReference": "31",
@@ -1540,12 +1545,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 97,
       "question": "According to Agent Factory, what role do 'AI-First IDEs' play in solving context limitations?",
       "options": [
-        "They eliminate context windows entirely",
         "They intelligently select relevant code to maximize context value instead of requiring all code upfront",
+        "They eliminate context windows entirely",
         "They replace the need for specifications",
         "AI-First IDEs don't actually address context limitations"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "Three Core LLM Constraints",
       "pageReference": "31",
@@ -1573,11 +1578,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How do the three LLM constraints (stateless, probabilistic, limited context) interact in practice?",
       "options": [
         "They are independent and don't affect each other",
-        "Stateless + limited context: must re-inject context efficiently. Probabilistic + stateless: can't rely on consistency. Probabilistic + limited context: vague specs yield wild variation.",
         "The constraints only matter for theoretical research, not practical development",
+        "Stateless + limited context: must re-inject context efficiently. Probabilistic + stateless: can't rely on consistency. Probabilistic + limited context: vague specs yield wild variation.",
         "Only the stateless constraint matters; the others are negligible"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Three Core LLM Constraints",
       "pageReference": "32",
@@ -1589,11 +1594,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is the primary methodological response to the stateless constraint?",
       "options": [
         "Accept that statelessness is unavoidable and design nothing to address it",
-        "Persist context in files (AGENTS.md, SPEC.md, MCP, Skills) that get re-injected with each session",
+        "Never use AI systems that are stateless",
         "Use only stateful AI models instead of LLMs",
-        "Never use AI systems that are stateless"
+        "Persist context in files (AGENTS.md, SPEC.md, MCP, Skills) that get re-injected with each session"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Three Core LLM Constraints",
       "pageReference": "32",
@@ -1604,12 +1609,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 101,
       "question": "Why does 'Spec-Driven Development' address all three LLM constraints simultaneously?",
       "options": [
-        "It doesn't address any of the constraints",
         "Specs persist across sessions (stateless), constrain probabilistic outputs (reduces variation), maximize context efficiency (respects limits)",
+        "It doesn't address any of the constraints",
         "SDD only addresses the stateless constraint",
         "SDD is unrelated to the three constraints"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "Three Core LLM Constraints",
       "pageReference": "32",
@@ -1637,11 +1642,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does 'Full-Stack Builder' mean in the context of AI-native development?",
       "options": [
         "A developer who writes both frontend and backend code manually",
-        "A developer who orchestrates AI to handle multiple layers (frontend, backend, product spec) that previously required distinct specialists",
         "A developer who builds stacks of servers",
+        "A developer who orchestrates AI to handle multiple layers (frontend, backend, product spec) that previously required distinct specialists",
         "A developer who specializes in a single technology stack"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "From Coder to Orchestrator",
       "pageReference": "33",
@@ -1653,11 +1658,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "According to Satya Nadella's Davos 2026 statement, how has AI transformed traditional engineering teams?",
       "options": [
         "Traditional teams are no longer needed",
-        "AI has collapsed the silos that required distinct specialists (product managers, designers, frontend, backend) into Full-Stack Builders",
+        "Nadella claimed AI has no impact on team structure",
         "AI has made software development more specialized, not less",
-        "Nadella claimed AI has no impact on team structure"
+        "AI has collapsed the silos that required distinct specialists (product managers, designers, frontend, backend) into Full-Stack Builders"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "From Coder to Orchestrator",
       "pageReference": "33",
@@ -1668,12 +1673,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 105,
       "question": "What is the key difference between 'delegation' and 'orchestration' in the context of AI?",
       "options": [
-        "They are the same thing with different names",
         "Delegation: give AI a task and hope. Orchestration: informed direction with judgment, understanding, review",
+        "They are the same thing with different names",
         "Delegation is better than orchestration",
         "Orchestration is just another word for laziness"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "From Coder to Orchestrator",
       "pageReference": "33",
@@ -1701,11 +1706,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "In the Judgment Layer concept, what distinguishes human judgment from AI execution?",
       "options": [
         "Humans judge syntax; AI executes features",
-        "Humans define success, constraints, specifications, and validate AI output; AI generates code, applies patterns, creates documentation",
         "There is no meaningful distinction between human judgment and AI execution",
+        "Humans define success, constraints, specifications, and validate AI output; AI generates code, applies patterns, creates documentation",
         "Judgment and execution happen in the same layer"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "34",
@@ -1717,11 +1722,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is the OODA Loop and how does it apply to agentic AI?",
       "options": [
         "A loop for processing audio data",
-        "Observe, Orient, Decide, Act—a continuous cycle of decision-making that autonomous agents use to reason through problems",
+        "A security protocol for AI systems",
         "A training methodology for language models",
-        "A security protocol for AI systems"
+        "Observe, Orient, Decide, Act—a continuous cycle of decision-making that autonomous agents use to reason through problems"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "From Coder to Orchestrator",
       "pageReference": "34",
@@ -1732,12 +1737,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 109,
       "question": "How does Claude Code use the OODA Loop when debugging a production error?",
       "options": [
-        "It provides one suggestion and stops",
         "It cycles through Observe (read error), Orient (identify root cause), Decide (choose where to look), Act (execute), then repeats based on results",
+        "It provides one suggestion and stops",
         "It manually reads all code files sequentially",
         "Claude Code does not use the OODA Loop"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "34",
@@ -1765,11 +1770,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is Generation 2 of AI development tools and what role did it introduce for humans?",
       "options": [
         "Feature generation with AI reading entire codebases",
-        "ChatGPT shift: describe a problem in natural language, get code blocks back. Human role: Prompt Engineer (integrate and validate isolated outputs)",
         "Agentic systems with autonomous execution",
+        "ChatGPT shift: describe a problem in natural language, get code blocks back. Human role: Prompt Engineer (integrate and validate isolated outputs)",
         "AI models deployed as production services"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "easy",
       "topic": "Five Generations of AI Tools",
       "pageReference": "35",
@@ -1781,11 +1786,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What characterizes Generation 3 of AI development tools?",
       "options": [
         "Intelligent autocomplete suggestion",
-        "Tools like Cursor reading entire codebases and modifying multiple files while maintaining project consistency. Human role: Architect specifying features and guiding iterations",
+        "Autonomous self-healing production systems",
         "ChatGPT-based function generation",
-        "Autonomous self-healing production systems"
+        "Tools like Cursor reading entire codebases and modifying multiple files while maintaining project consistency. Human role: Architect specifying features and guiding iterations"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "Five Generations of AI Tools",
       "pageReference": "35",
@@ -1796,12 +1801,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 113,
       "question": "What defines Generation 4 of AI development tools as of 2026?",
       "options": [
-        "Intelligent autocomplete in editors",
         "Agentic Mainstream: Claude Code, Gemini 3 CLI are daily drivers. MCP enables universal adapters. Multi-step orchestration. Human role: Orchestrator. Performance: ~76% accuracy on SWE-bench",
+        "Intelligent autocomplete in editors",
         "ChatGPT-style function generation",
         "Early experimental AI agents"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "Five Generations of AI Tools",
       "pageReference": "35",
@@ -1829,11 +1834,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is Generation 5 of AI development tools?",
       "options": [
         "Higher accuracy models than current generation",
-        "Self-Evolving Ecosystems: Resident AI monitoring production, self-healing clusters, intent-driven growth. Human role: Policy Governor setting guardrails (2026-beyond)",
         "Faster execution of AI models",
+        "Self-Evolving Ecosystems: Resident AI monitoring production, self-healing clusters, intent-driven growth. Human role: Policy Governor setting guardrails (2026-beyond)",
         "Better natural language interfaces"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Five Generations of AI Tools",
       "pageReference": "36",
@@ -1845,11 +1850,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "In Generation 5 AI systems, what does 'Intent-Driven Growth' mean?",
       "options": [
         "Developers manually scale infrastructure",
-        "Developers declare Business Intent (e.g., 'Handle 50k concurrent users at 99.9% uptime'), and AI optimizes architecture and infrastructure automatically",
+        "There is no concept of intent-driven growth in AI systems",
         "AI systems randomly improve themselves",
-        "There is no concept of intent-driven growth in AI systems"
+        "Developers declare Business Intent (e.g., 'Handle 50k concurrent users at 99.9% uptime'), and AI optimizes architecture and infrastructure automatically"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Five Generations of AI Tools",
       "pageReference": "36",
@@ -1860,12 +1865,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 117,
       "question": "How does the human role evolve across the five generations of AI development tools?",
       "options": [
-        "Humans are gradually replaced and become unnecessary",
         "Typist → Prompt Engineer → Architect → Orchestrator → Policy Governor (human judgment shifts from typing to directing to governing)",
+        "Humans are gradually replaced and become unnecessary",
         "The human role stays the same across all generations",
         "Humans only appear in Generation 3; Generations 1, 2, 4, 5 are fully automated"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "Five Generations of AI Tools",
       "pageReference": "36",
@@ -1893,11 +1898,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does AI transform the Coding phase of the SDLC according to Agent Factory?",
       "options": [
         "AI eliminates the need for coding",
-        "AI generates 80-90% of routine code automatically. Developer role shifts from typing to specifying clearly and validating output. Time: 4+ hours (without AI) → 30 minutes (with AI)",
         "Coding phase remains unchanged with AI",
+        "AI generates 80-90% of routine code automatically. Developer role shifts from typing to specifying clearly and validating output. Time: 4+ hours (without AI) → 30 minutes (with AI)",
         "AI makes coding more complicated, not easier"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "SDLC Transformation with AI",
       "pageReference": "37",
@@ -1909,11 +1914,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does AI transform the Testing phase of the SDLC?",
       "options": [
         "Testing is no longer needed with AI",
-        "AI generates test cases from specs automatically, identifies edge cases, finds bugs through analysis. QA validates critical paths. Output increases from 200 to 500+ test cases",
+        "AI cannot generate test cases",
         "Testing becomes harder with AI",
-        "AI cannot generate test cases"
+        "AI generates test cases from specs automatically, identifies edge cases, finds bugs through analysis. QA validates critical paths. Output increases from 200 to 500+ test cases"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "SDLC Transformation with AI",
       "pageReference": "37",
@@ -1924,12 +1929,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 121,
       "question": "How does AI transform the Deployment phase of the SDLC?",
       "options": [
-        "Deployment becomes more manual with AI",
         "AI generates infrastructure-as-code, orchestrates deployment, monitors rollout. Time: 2+ hours (manual) → 30 minutes with AI validation. DevOps focuses on strategy, not execution",
+        "Deployment becomes more manual with AI",
         "Deployment is not affected by AI",
         "AI cannot handle deployment tasks"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "SDLC Transformation with AI",
       "pageReference": "37",
@@ -1957,11 +1962,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "According to the Agent Factory paradigm, what is the 'Judgment Layer'?",
       "options": [
         "A neural network layer in the AI model",
-        "The human layer that makes decisions (success criteria, tradeoffs, constraints, specifications, validation) directing AI execution",
         "A security feature in production systems",
+        "The human layer that makes decisions (success criteria, tradeoffs, constraints, specifications, validation) directing AI execution",
         "A component of the OODA Loop"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "34",
@@ -1973,11 +1978,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "Why is 'Problem Clarity' crucial for orchestrating AI systems?",
       "options": [
         "It helps the developer understand AI better",
-        "'Build a login system' is vague and produces poor results. 'Build login with OAuth, PostgreSQL, bcrypt, password reset via email' is clear and drives much better AI output",
+        "AI works equally well regardless of problem clarity",
         "Problem clarity is not important for AI orchestration",
-        "AI works equally well regardless of problem clarity"
+        "'Build a login system' is vague and produces poor results. 'Build login with OAuth, PostgreSQL, bcrypt, password reset via email' is clear and drives much better AI output"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "34",
@@ -1988,12 +1993,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 125,
       "question": "Why is 'Constraint Awareness' an essential orchestrator capability?",
       "options": [
-        "Constraints make development easier",
         "Different constraints shape AI decisions: performance requirements, security standards, scale targets, and budgets. The orchestrator must know which constraints matter most",
+        "Constraints make development easier",
         "Constraints are irrelevant to orchestration",
         "All constraints are equally important"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "34",
@@ -2021,11 +2026,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "Why does Agent Factory emphasize that 'Judgment is not typing'?",
       "options": [
         "Because typing is more important than judgment",
-        "Because judgment (understanding problems deeply to direct work) is a different skill than typing (mechanical code input). Orchestrators make judgments; AI does typing",
         "Typing and judgment are the same skill",
+        "Because judgment (understanding problems deeply to direct work) is a different skill than typing (mechanical code input). Orchestrators make judgments; AI does typing",
         "This is not emphasized in Agent Factory"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "34",
@@ -2038,10 +2043,10 @@ window.QUIZ_DATA_CHAPTER1 = {
       "options": [
         "20%",
         "50%",
-        "80%",
-        "Less than 10%"
+        "Less than 10%",
+        "80%"
       ],
-      "correct": 2,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "From Coder to Orchestrator",
       "pageReference": "33",
@@ -2052,12 +2057,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 129,
       "question": "What is the remaining 20% of developer work that AI cannot replace?",
       "options": [
-        "All coding work can be automated",
         "Orchestration, direction, judgment—deciding what to build, choosing constraints, validating output",
+        "All coding work can be automated",
         "Debugging and testing",
         "Configuration and deployment"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "33",
@@ -2085,11 +2090,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does the Agent Factory paradigm mean by 'The Typist is limited by what they can manually code, but the Full-Stack Builder is limited only by what they can orchestrate'?",
       "options": [
         "Typists are more skilled than Full-Stack Builders",
-        "Typist bottleneck: manual typing limits output. Orchestrator advantage: AI does typing, so output is limited only by the orchestrator's ability to direct complex systems",
         "This statement has no practical meaning",
+        "Typist bottleneck: manual typing limits output. Orchestrator advantage: AI does typing, so output is limited only by the orchestrator's ability to direct complex systems",
         "Orchestrators are more limited than Typists"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "From Coder to Orchestrator",
       "pageReference": "33",
@@ -2101,11 +2106,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What skills become 'less valuable' in the agent era according to the Agent Factory skill comparison table?",
       "options": [
         "Architecture decisions, security assessment, requirement gathering",
-        "Code syntax, boilerplate writing, low-level debugging",
+        "All skills remain equally valuable",
         "Problem decomposition, specification writing",
-        "All skills remain equally valuable"
+        "Code syntax, boilerplate writing, low-level debugging"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "34",
@@ -2116,12 +2121,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 133,
       "question": "Why is 'Problem Decomposition' a skill AI cannot replace?",
       "options": [
-        "AI is not smart enough to decompose problems",
         "AI can implement subtasks but doesn't understand how to break complex requirements into appropriate subtasks—that requires human judgment",
+        "AI is not smart enough to decompose problems",
         "Problem decomposition is an old skill made obsolete by AI",
         "AI is better at decomposition than humans"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "34",
@@ -2149,11 +2154,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does 'Security Assessment' differ between traditional and AI-native development?",
       "options": [
         "Security is not a concern in AI-native development",
-        "Traditional: security is complex, requires deep expertise. AI-native: AI can implement security patterns, but humans must understand threat models and define which constraints matter",
         "AI eliminates security concerns",
+        "Traditional: security is complex, requires deep expertise. AI-native: AI can implement security patterns, but humans must understand threat models and define which constraints matter",
         "Security assessment is the same in both models"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "34",
@@ -2165,11 +2170,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is 'hallucination' in the context of LLMs and why is validation critical?",
       "options": [
         "Hallucinations are visual effects LLMs produce",
-        "LLMs confidently generate code that looks correct but contains subtle bugs, wrong APIs, or logic errors. Validation is mandatory because AI can't guarantee correctness",
+        "Hallucinations only affect non-code tasks",
         "Hallucinations are not a real concern for production AI",
-        "Hallucinations only affect non-code tasks"
+        "LLMs confidently generate code that looks correct but contains subtle bugs, wrong APIs, or logic errors. Validation is mandatory because AI can't guarantee correctness"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Three Core LLM Constraints",
       "pageReference": "31",
@@ -2180,12 +2185,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 137,
       "question": "How does context cost affect context engineering decisions in practice?",
       "options": [
-        "Context is free so cost doesn't matter",
         "Every token costs money (frontier APIs charge per token). Poorly managed context (irrelevant files, long histories) directly increases costs. Efficient specs save money at scale",
+        "Context is free so cost doesn't matter",
         "Context cost is negligible",
         "Larger context always costs the same regardless of content"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "Three Core LLM Constraints",
       "pageReference": "31",
@@ -2213,11 +2218,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "In practical terms, how does a developer recognize they are in 'Incubation' mode (should use General Agents)?",
       "options": [
         "When they want to show off their coding skills",
-        "When requirements are unclear, they're exploring solutions, trying multiple approaches, or building one-off tools",
         "When they have lots of time available",
+        "When requirements are unclear, they're exploring solutions, trying multiple approaches, or building one-off tools",
         "When they want to use the most advanced AI model"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "35",
@@ -2229,11 +2234,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "In practical terms, how does a developer recognize they are 'Ready for Specialization' (should build Custom Agents)?",
       "options": [
         "When they're tired of exploring",
-        "When they can precisely define behavior, it will run hundreds/thousands of times, users need consistent behavior, cost/latency matter",
+        "When the first version works once",
         "When they feel confident enough",
-        "When the first version works once"
+        "When they can precisely define behavior, it will run hundreds/thousands of times, users need consistent behavior, cost/latency matter"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "35",
@@ -2244,12 +2249,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 141,
       "question": "What is the danger of 'Premature Specialization' in agent development?",
       "options": [
-        "There is no risk to specializing early",
         "Building Custom Agents before requirements stabilize leads to over-engineering solutions to the wrong problem. Better to stay in incubation longer",
+        "There is no risk to specializing early",
         "Premature specialization makes agents work faster",
         "Specialization never causes problems"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "35",
@@ -2277,11 +2282,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is the danger of 'Skipping Incubation' in agent development?",
       "options": [
         "Skipping incubation saves time and money",
-        "Trying to specify Custom Agents without exploration leads to missed requirements, wrong constraints, brittle systems. Better to incubate first",
         "Skipping incubation produces better agents",
+        "Trying to specify Custom Agents without exploration leads to missed requirements, wrong constraints, brittle systems. Better to incubate first",
         "Incubation is optional"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "35",
@@ -2293,11 +2298,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does the 'Opportunity Window' concept apply to AI-native development in 2026?",
       "options": [
         "There is no urgency to learn AI-native development",
-        "Technology transitions create brief windows for advantage (3-5 years). We're at year 1-2 of AI-native transition. Learning now vs. 2027-2028 makes 5+ year career difference",
+        "Opportunity windows don't affect career outcomes",
         "The opportunity window closed in 2025",
-        "Opportunity windows don't affect career outcomes"
+        "Technology transitions create brief windows for advantage (3-5 years). We're at year 1-2 of AI-native transition. Learning now vs. 2027-2028 makes 5+ year career difference"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "2025 Inflection Point",
       "pageReference": "6",
@@ -2308,12 +2313,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 145,
       "question": "According to Agent Factory, what does traditional CS education miss in preparing for AI-native development?",
       "options": [
-        "Traditional CS education is perfectly sufficient",
         "Traditional CS emphasizes syntax, algorithms, patterns, full-stack knowledge. AI-native needs specification writing, prompting, agent design, system thinking, validation",
+        "Traditional CS education is perfectly sufficient",
         "AI-native development doesn't require any specific preparation",
         "Traditional education is better than AI-native skills"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "33",
@@ -2341,11 +2346,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does 'Software disrupts software' mean in the context of the $3T Developer Economy?",
       "options": [
         "Software has nothing to do with disruption",
-        "Software is unique: disruption is internal. Tools that build software change how software gets built, causing self-disruption faster and more completely than external disruption",
         "Software can only be disrupted externally",
+        "Software is unique: disruption is internal. Tools that build software change how software gets built, causing self-disruption faster and more completely than external disruption",
         "The developer economy is not affected by software change"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "2025 Inflection Point",
       "pageReference": "6",
@@ -2357,11 +2362,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "Why does Agent Factory claim that understanding the three LLM constraints is 'prerequisite knowledge for everything else in this book'?",
       "options": [
         "The constraints are not actually important",
-        "Every methodology (SDD, AGENTS.md, MCP, TDD) exists because of these constraints. Understanding constraints explains WHY methods exist and HOW to apply them effectively",
+        "Methodologies work regardless of understanding constraints",
         "The constraints are only important for academics",
-        "Methodologies work regardless of understanding constraints"
+        "Every methodology (SDD, AGENTS.md, MCP, TDD) exists because of these constraints. Understanding constraints explains WHY methods exist and HOW to apply them effectively"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Three Core LLM Constraints",
       "pageReference": "32",
@@ -2372,12 +2377,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 149,
       "question": "What does 'the stateless constraint creates the need for persistent context' mean practically?",
       "options": [
-        "Stateless constraints don't create any practical needs",
         "Since LLMs forget sessions, context (AGENTS.md, specs, decisions) must be stored persistently and re-injected with each new session",
+        "Stateless constraints don't create any practical needs",
         "Persistent context makes statelessness worse",
         "Statelessness eliminates the need for context"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "Three Core LLM Constraints",
       "pageReference": "32",
@@ -2405,11 +2410,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does 'the limited context constraint creates the need for specification-first thinking' mean practically?",
       "options": [
         "Limited context doesn't affect how you should work",
-        "Since context is bounded, you must represent requirements efficiently in specifications. Vague specs use tokens on discovery; precise specs fit more requirement in fewer tokens",
         "Specifications are inefficient with limited context",
+        "Since context is bounded, you must represent requirements efficiently in specifications. Vague specs use tokens on discovery; precise specs fit more requirement in fewer tokens",
         "Limited context allows longer conversations"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Three Core LLM Constraints",
       "pageReference": "32",
@@ -2421,11 +2426,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does understanding the OODA Loop help orchestrators work with autonomous agents?",
       "options": [
         "OODA Loop is irrelevant to orchestration",
-        "OODA Loop reveals that agents reason iteratively (observe→orient→decide→act→repeat). Orchestrators can anticipate agent behavior, understand why agents ask for information, and provide direction effectively",
+        "Orchestrators don't need to understand agent reasoning",
         "OODA Loop only applies to military strategy",
-        "Orchestrators don't need to understand agent reasoning"
+        "OODA Loop reveals that agents reason iteratively (observe→orient→decide→act→repeat). Orchestrators can anticipate agent behavior, understand why agents ask for information, and provide direction effectively"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "From Coder to Orchestrator",
       "pageReference": "34",
@@ -2436,12 +2441,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 153,
       "question": "What is the significance of MCP (Model Context Protocol) in the evolution from Generation 3 to Generation 4 AI tools?",
       "options": [
-        "MCP has no significance in tool evolution",
         "MCP enables agents to dynamically retrieve information from diverse systems (databases, APIs, logs) instead of requiring everything upfront. This solves context limitations by making agents context-aware rather than context-limited",
+        "MCP has no significance in tool evolution",
         "MCP only applies to generation 1 tools",
         "MCP makes context limitations worse"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "Five Generations of AI Tools",
       "pageReference": "35",
@@ -2469,11 +2474,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does Agent Factory mean by 'every practice in this book exists because of these three constraints'?",
       "options": [
         "This statement is an overstatement",
-        "Every methodology (SDD, AGENTS.md, MCP, TDD, context engineering) is a direct response to statelessness, probabilistic outputs, or limited context. Understanding constraints reveals WHY each practice matters",
         "Constraints and practices are unrelated",
+        "Every methodology (SDD, AGENTS.md, MCP, TDD, context engineering) is a direct response to statelessness, probabilistic outputs, or limited context. Understanding constraints reveals WHY each practice matters",
         "Some practices are unrelated to constraints"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Three Core LLM Constraints",
       "pageReference": "32",
@@ -2485,11 +2490,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How should project structure be organized to work effectively with context limitations in AI-native development?",
       "options": [
         "Project structure doesn't matter for AI",
-        "Small, well-named files with clear responsibilities are easier to selectively include in context than monolithic files",
+        "Project structure is irrelevant to context management",
         "All code should be in one large file for simplicity",
-        "Project structure is irrelevant to context management"
+        "Small, well-named files with clear responsibilities are easier to selectively include in context than monolithic files"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Three Core LLM Constraints",
       "pageReference": "31",
@@ -2500,12 +2505,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 157,
       "question": "What does 'conversation reset' mean as a context management strategy?",
       "options": [
-        "Throwing away all progress and starting over",
         "Starting a fresh conversation with only relevant context rather than dragging along thousands of tokens of conversation history for new topics",
+        "Throwing away all progress and starting over",
         "Forgetting what the previous conversation was about",
         "Resetting is not a valid strategy"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "Three Core LLM Constraints",
       "pageReference": "31",
@@ -2533,11 +2538,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does temperature affect reliability in production AI systems?",
       "options": [
         "Temperature has no effect on reliability",
-        "Lower temperature (closer to 0) increases reliability by reducing randomness, but higher temperatures enable creativity. Production systems often use low temperature",
         "Higher temperature always increases reliability",
+        "Lower temperature (closer to 0) increases reliability by reducing randomness, but higher temperatures enable creativity. Production systems often use low temperature",
         "Temperature only affects model speed, not output"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Three Core LLM Constraints",
       "pageReference": "29",
@@ -2549,11 +2554,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "Why does the Agent Factory recommend 'version control what worked' for probabilistic outputs?",
       "options": [
         "Version control is not necessary for AI outputs",
-        "Since identical prompts produce different outputs, you must preserve configurations and outputs that worked well instead of assuming reproducibility",
+        "This recommendation is not actually made",
         "Version control makes AI development harder",
-        "This recommendation is not actually made"
+        "Since identical prompts produce different outputs, you must preserve configurations and outputs that worked well instead of assuming reproducibility"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Three Core LLM Constraints",
       "pageReference": "29",
@@ -2564,12 +2569,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 161,
       "question": "What does 'multiple valid fixes exist' mean in the context of probabilistic debugging?",
       "options": [
-        "Only one fix exists for any bug",
         "A bug might have several valid solutions; reviewing each fix ensures you choose the best approach rather than assuming the first generated fix is optimal",
+        "Only one fix exists for any bug",
         "All fixes are equally good",
         "There are never multiple valid fixes"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "Three Core LLM Constraints",
       "pageReference": "29",
@@ -2597,11 +2602,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is the relationship between 'Specification Precision' and 'Output Variability'?",
       "options": [
         "They are unrelated",
-        "Vague specifications yield wildly varying outputs; precise specifications constrain variation to acceptable bounds. Clarity reduces chaos",
         "More precise specifications increase variability",
+        "Vague specifications yield wildly varying outputs; precise specifications constrain variation to acceptable bounds. Clarity reduces chaos",
         "Output variability is random regardless of specification clarity"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Three Core LLM Constraints",
       "pageReference": "29",
@@ -2613,11 +2618,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does the concept of 'stateless amnesia' apply to improving agent performance?",
       "options": [
         "Amnesia is purely a limitation with no upside",
-        "Treating each session as fresh forces you to document decisions clearly. Well-documented specifications become better tools for performance improvement",
+        "Statelessness and improvement are unrelated",
         "Amnesia makes improvement impossible",
-        "Statelessness and improvement are unrelated"
+        "Treating each session as fresh forces you to document decisions clearly. Well-documented specifications become better tools for performance improvement"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Three Core LLM Constraints",
       "pageReference": "28",
@@ -2628,12 +2633,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 165,
       "question": "What is the practical difference between 'AI implements patterns' versus 'humans choose patterns'?",
       "options": [
-        "There is no practical difference",
         "AI can implement any pattern well once chosen. Humans choose which pattern fits the problem. This division of responsibility ensures both architectural coherence and implementation quality",
+        "There is no practical difference",
         "Humans are better at implementing patterns",
         "AI should choose its own patterns"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "34",
@@ -2661,11 +2666,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does the OODA Loop explain why agents sometimes ask clarifying questions?",
       "options": [
         "Agents ask questions when they want to annoy users",
-        "During the Orient phase, agents analyze information and identify gaps. Clarifying questions help them understand context correctly before Deciding on an approach",
         "Agents never need clarifying questions",
+        "During the Orient phase, agents analyze information and identify gaps. Clarifying questions help them understand context correctly before Deciding on an approach",
         "Clarifying questions mean the agent is broken"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "34",
@@ -2677,11 +2682,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does it mean that 'Passive AI tools predict, but agentic tools reason'?",
       "options": [
         "They do the same thing",
-        "Passive tools (ChatGPT without file access) generate one response based on prompt. Agentic tools cycle through OODA Loop—observe, orient, decide, act, observe results, repeat",
+        "Reasoning and prediction are the same",
         "Passive tools are better than agentic tools",
-        "Reasoning and prediction are the same"
+        "Passive tools (ChatGPT without file access) generate one response based on prompt. Agentic tools cycle through OODA Loop—observe, orient, decide, act, observe results, repeat"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "34",
@@ -2692,12 +2697,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 169,
       "question": "How does the evolution from Gen1→Gen5 affect the human decision-making burden?",
       "options": [
-        "Humans make more decisions at higher complexity",
         "Gen1 Typist decides every syntax detail (high burden, low level). Gen5 Governor sets policies once (low burden, high level). The journey moves decisions from tactical to strategic",
+        "Humans make more decisions at higher complexity",
         "Human decision burden increases with each generation",
         "Humans make decisions equally at all generations"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "Five Generations of AI Tools",
       "pageReference": "36",
@@ -2709,11 +2714,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What percentage of Google's developer workforce could Gen2 AI equivalently add in productivity gains?",
       "options": [
         "1%",
-        "5%",
         "8,000 full-time developers equivalent (10% productivity increase across Google's org)",
+        "5%",
         "50%"
       ],
-      "correct": 2,
+      "correct": 1,
       "difficulty": "easy",
       "topic": "2025 Inflection Point",
       "pageReference": "5",
@@ -2741,11 +2746,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does 'Two hours per day median usage' reveal about AI integration according to DORA 2025?",
       "options": [
         "Developers only use AI tools occasionally",
-        "Two hours is roughly one-quarter of a workday. This isn't occasional use—it's integrated into daily workflow like email or version control",
+        "DORA data is not reliable",
         "Two hours is minimal time",
-        "DORA data is not reliable"
+        "Two hours is roughly one-quarter of a workday. This isn't occasional use—it's integrated into daily workflow like email or version control"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "easy",
       "topic": "2025 Inflection Point",
       "pageReference": "5",
@@ -2756,12 +2761,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 173,
       "question": "What do Y Combinator Winter 2025 startups reveal about AI-native development adoption?",
       "options": [
-        "No startups use AI in development",
         "25% of startups incorporated AI-generated code as primary development approach, with some reporting 95% of codebase written by AI systems",
+        "No startups use AI in development",
         "Only 1% of startups use AI",
         "AI is harmful to startups"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "easy",
       "topic": "2025 Inflection Point",
       "pageReference": "5",
@@ -2789,11 +2794,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What problem did the ICPC World Finals 2025 solve that no human team solved?",
       "options": [
         "A simple sorting problem",
-        "Problem C—a complex optimization task involving liquid distribution through interconnected ducts—solved by AI but unsolved by all 139 human teams",
         "No AI solved problems humans couldn't",
+        "Problem C—a complex optimization task involving liquid distribution through interconnected ducts—solved by AI but unsolved by all 139 human teams",
         "ICPC doesn't measure meaningful difficulty"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "2025 Inflection Point",
       "pageReference": "5",
@@ -2805,11 +2810,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does the GDPval Benchmark's 49% win rate (Claude Opus 4.1) indicate about capability progression?",
       "options": [
         "AI is 49% as capable as humans",
-        "Claude achieves 49% win rate against human expert programmers—exponential improvement from <15% eighteen months prior",
+        "The benchmark is invalid",
         "Humans are better programmers than AI",
-        "The benchmark is invalid"
+        "Claude achieves 49% win rate against human expert programmers—exponential improvement from <15% eighteen months prior"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "2025 Inflection Point",
       "pageReference": "5",
@@ -2820,12 +2825,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 177,
       "question": "What is the specific business model disruption that Digital FTE creates in SaaS?",
       "options": [
-        "No disruption occurs",
         "Traditional SaaS: users pay per seat, still need humans for cognitive work. Digital FTE: pays per result (outcome pricing). Same CRM handles 100x more leads with AI—per-seat model breaks",
+        "No disruption occurs",
         "SaaS business models are unaffected",
         "Digital FTE cannot disrupt pricing"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "Developer Economy",
       "pageReference": "6",
@@ -2853,11 +2858,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does 'end-to-end autonomous execution' distinguish a Digital FTE from traditional AI tools?",
       "options": [
         "Digital FTEs are just like traditional chatbots",
-        "Traditional AI augments human tasks; Digital FTE completes full workflows (support ticket→resolution) without human per-task intervention",
         "Digital FTEs require human approval for each step",
+        "Traditional AI augments human tasks; Digital FTE completes full workflows (support ticket→resolution) without human per-task intervention",
         "No distinction exists between Digital FTE and traditional AI"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Agent Factory Paradigm",
       "pageReference": "6",
@@ -2869,11 +2874,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does the concept of 'Self-Healing Clusters' in Gen5 AI differ from traditional monitoring?",
       "options": [
         "There is no difference",
-        "Traditional: monitoring detects problems, humans debug, humans deploy fixes. Gen5: AI detects problem, identifies root cause commit, reproduces in synthetic environment, deploys patch before users notice",
+        "Traditional monitoring is better than self-healing",
         "Monitoring and self-healing are unrelated",
-        "Traditional monitoring is better than self-healing"
+        "Traditional: monitoring detects problems, humans debug, humans deploy fixes. Gen5: AI detects problem, identifies root cause commit, reproduces in synthetic environment, deploys patch before users notice"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Five Generations of AI Tools",
       "pageReference": "36",
@@ -2884,12 +2889,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 181,
       "question": "What is the significance of 'Definition of Done' as an orchestrator concept?",
       "options": [
-        "Definition of Done is unnecessary",
         "Orchestrators define done upfront (acceptance criteria, quality standards) rather than accepting whatever AI generates. This clarity drives agent behavior",
+        "Definition of Done is unnecessary",
         "Definition of Done makes work harder",
         "Agents should define done themselves"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "35",
@@ -2917,11 +2922,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is the 'blast radius' concept in orchestrator responsibility?",
       "options": [
         "Blast radius has nothing to do with orchestration",
-        "Orchestrators manage the scope of agent autonomy (blast radius) - reviewing what agents can change to prevent cascading failures",
         "Blast radius only applies to explosives",
+        "Orchestrators manage the scope of agent autonomy (blast radius) - reviewing what agents can change to prevent cascading failures",
         "This concept doesn't apply to AI"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "From Coder to Orchestrator",
       "pageReference": "35",
@@ -2933,11 +2938,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "How does 'Business Intent' in Gen5 systems differ from 'Specifications' in Gen4?",
       "options": [
         "They are the same thing",
-        "Specifications: detailed how-to instructions (Gen4). Business Intent: high-level outcomes (Gen5). Intent-driven systems autonomously determine how to achieve intent",
+        "No meaningful difference exists",
         "Business Intent is less powerful",
-        "No meaningful difference exists"
+        "Specifications: detailed how-to instructions (Gen4). Business Intent: high-level outcomes (Gen5). Intent-driven systems autonomously determine how to achieve intent"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Five Generations of AI Tools",
       "pageReference": "36",
@@ -2948,12 +2953,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 185,
       "question": "According to Agent Factory, why are traditional developers who equate skill with typing speed at a disadvantage in the agent era?",
       "options": [
-        "They have no disadvantage",
         "In agent era, typing speed irrelevant but judgment and direction essential. Those trained to type fast but not to specify clearly lose their core advantage",
+        "They have no disadvantage",
         "Typing speed always matters",
         "This claim is not made in Agent Factory"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "advanced",
       "topic": "From Coder to Orchestrator",
       "pageReference": "33",
@@ -2981,11 +2986,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What does 'the factory never stops' mean in Agent Factory vision?",
       "options": [
         "Factory stops after deployment",
-        "Production Specialist generates data (usage patterns, failures, edge cases) that feeds back into incubator for improvement and new capabilities",
         "Once built, Specialists are never changed",
+        "Production Specialist generates data (usage patterns, failures, edge cases) that feeds back into incubator for improvement and new capabilities",
         "This phrase has no meaning"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "medium",
       "topic": "Agent Factory Paradigm",
       "pageReference": "1",
@@ -2997,11 +3002,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "Why is SWE-bench Verified a more meaningful benchmark than code generation benchmarks?",
       "options": [
         "It's not more meaningful",
-        "SWE-bench Verified: real GitHub issues with real context, not toy problems. Solving 3 of 4 real-world issues proves production readiness, not just pattern matching",
+        "Benchmark choice doesn't matter",
         "Toy benchmarks are more relevant",
-        "Benchmark choice doesn't matter"
+        "SWE-bench Verified: real GitHub issues with real context, not toy problems. Solving 3 of 4 real-world issues proves production readiness, not just pattern matching"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "advanced",
       "topic": "Five Generations of AI Tools",
       "pageReference": "35",
@@ -3012,12 +3017,12 @@ window.QUIZ_DATA_CHAPTER1 = {
       "id": 189,
       "question": "How does 'context-aware reasoning' in Gen3 tools represent a breakthrough compared to Gen2?",
       "options": [
-        "There is no breakthrough",
         "Gen2 tools were blind to project structure (hallucinated APIs). Gen3 reads entire codebase, maintains consistency across files, understands your patterns and tech stack",
+        "There is no breakthrough",
         "Gen2 was better than Gen3",
         "Context awareness was irrelevant"
       ],
-      "correct": 1,
+      "correct": 0,
       "difficulty": "medium",
       "topic": "Five Generations of AI Tools",
       "pageReference": "35",
@@ -3045,11 +3050,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "Why does Agent Factory warn against 'trying to skip incubation leads to over-engineered solutions to the wrong problem'?",
       "options": [
         "This warning is not given",
-        "Without exploration (incubation), you specialize based on assumed requirements. You then engineer excellence in solving the wrong problem efficiently",
         "Skipping incubation always works well",
+        "Without exploration (incubation), you specialize based on assumed requirements. You then engineer excellence in solving the wrong problem efficiently",
         "Over-engineering is beneficial"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "advanced",
       "topic": "Agent Factory Paradigm",
       "pageReference": "35",
@@ -3061,11 +3066,11 @@ window.QUIZ_DATA_CHAPTER1 = {
       "question": "What is the 'Incubator to Specialist' progression called according to Agent Factory?",
       "options": [
         "Random evolution",
-        "Systematic iteration based on performance data refines the agent's capabilities and builds reliable specialization",
+        "The progression has no name",
         "Unpredictable change",
-        "The progression has no name"
+        "Systematic iteration based on performance data refines the agent's capabilities and builds reliable specialization"
       ],
-      "correct": 1,
+      "correct": 3,
       "difficulty": "medium",
       "topic": "Agent Factory Paradigm",
       "pageReference": "1",
