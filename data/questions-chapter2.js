@@ -3,7 +3,7 @@ window.QUIZ_DATA_CHAPTER2 = {
   "title": "Chapter 2: Markdown Writing Instructions",
   "chapterId": "chapter2",
   "source": "Agent Factory Book",
-  "totalQuestions": 85,
+  "totalQuestions": 135,
   "questions": [
     {
       "id": 1,
@@ -1338,6 +1338,806 @@ window.QUIZ_DATA_CHAPTER2 = {
       "topic": "Why Markdown Matters",
       "pageReference": "34",
       "explanation": "Markdown proficiency is a genuine force multiplier because it improves every phase of agent development simultaneously: better specifications produce better agents, clearer documentation accelerates collaboration, precise instruction engineering improves agent output — one skill compounding through all work.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 86,
+      "question": "What is the 'Intent Layer' in AI-Driven Development (AIDD)?",
+      "options": [
+        "The layer where AI generates code",
+        "The layer where you write specifications in markdown to express what you want to build",
+        "The layer where hardware processes information",
+        "The layer where databases store data"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "Markdown as Intent Layer",
+      "pageReference": "56",
+      "explanation": "The Intent Layer is Layer 1 of AIDD where you write markdown specifications to express what you want built. This bridges your human intent with AI execution, ensuring implementation matches requirements.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 87,
+      "question": "According to Agent Factory, why does markdown stay in Layer 1 (Intent Layer) and not move to other layers?",
+      "options": [
+        "Markdown is too simple for other layers",
+        "The specification represents your intent—the authoritative definition of what should be built—and you have final approval authority. Implementation must match spec, not the other way around",
+        "Markdown cannot be parsed by AI",
+        "Markdown is only for documentation"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "Markdown as Intent Layer",
+      "pageReference": "56",
+      "explanation": "Markdown specifications stay in the Intent Layer because they represent YOUR authority—your control point. Change the spec, and AI rebuilds to match. This keeps you in control of what gets built.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 88,
+      "question": "What are the three layers of AI-Driven Development (AIDD)?",
+      "options": [
+        "Frontend, Backend, Database",
+        "Intent Layer (you write), Reasoning Layer (AI thinks), Implementation Layer (AI generates code)",
+        "Design, Development, Deployment",
+        "Testing, Integration, Release"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "AIDD Layers",
+      "pageReference": "56",
+      "explanation": "AIDD has three layers: Layer 1 (Intent) where you write markdown specs, Layer 2 (Reasoning) where AI figures out implementation, Layer 3 (Implementation) where AI generates code.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 89,
+      "question": "What is the bridge between human intent and AI execution in AI-Driven Development?",
+      "options": [
+        "Programming languages",
+        "Markdown specifications",
+        "Database schemas",
+        "Cloud infrastructure"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "Markdown as Intent Layer",
+      "pageReference": "56",
+      "explanation": "Markdown specifications are the bridge between human intent (Layer 1) and AI execution (Layer 3). Clear, structured specs drive accurate AI implementation.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 90,
+      "question": "What does using **bold** markdown syntax indicate in specifications?",
+      "options": [
+        "Text is optional and nice-to-have",
+        "Text should be displayed prominently in the UI",
+        "Critical requirements that AI should prioritize",
+        "Text is just for visual emphasis"
+      ],
+      "correct": 2,
+      "difficulty": "medium",
+      "topic": "Text Emphasis",
+      "pageReference": "58",
+      "explanation": "Bold (**text**) signals critical requirements to AI agents. When AI sees '**must**' vs '*recommended*', it distinguishes hard requirements from optional enhancements.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 91,
+      "question": "What does using *italic* markdown syntax indicate in specifications?",
+      "options": [
+        "Critical requirements that cannot be skipped",
+        "Required functionality that must be implemented",
+        "Optional items, definitions, or slight emphasis",
+        "Text that should be underlined"
+      ],
+      "correct": 2,
+      "difficulty": "medium",
+      "topic": "Text Emphasis",
+      "pageReference": "58",
+      "explanation": "Italic (*text*) indicates optional items or definitions. Use italic for 'recommended but not required' features. This semantic distinction helps AI make appropriate trade-off decisions.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 92,
+      "question": "What does ***triple asterisk*** markdown syntax represent?",
+      "options": [
+        "A link to an external resource",
+        "Bold and italic combined—absolute requirements or security warnings",
+        "A code block indicator",
+        "An error in markdown syntax"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "Text Emphasis",
+      "pageReference": "58",
+      "explanation": "Triple asterisks (***text***) create bold italic combined—the strongest emphasis. Use for absolute requirements or security-critical information.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 93,
+      "question": "What is the difference between [link syntax] and ![image syntax]?",
+      "options": [
+        "They create the same thing",
+        "[text](url) creates a clickable link to navigate. ![text](url) embeds image inline. The ! means 'show here' vs 'take me there'",
+        "Images are created with [syntax], links with ![syntax]",
+        "There is no practical difference"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "Links and Images",
+      "pageReference": "59",
+      "explanation": "The ! prefix distinguishes images from links. [text](url) = clickable link (navigate). ![text](url) = embedded image (display here).",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 94,
+      "question": "What is alt text in markdown images and why does it matter for AI?",
+      "options": [
+        "Alt text is optional decorative content",
+        "Alt text describes what the image shows—it's critical for accessibility and helps AI understand images when reading markdown as text",
+        "Alt text is only for SEO purposes",
+        "Alt text appears inside the image"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "Links and Images",
+      "pageReference": "59",
+      "explanation": "Alt text describes the image content. When AI processes markdown as text-only, it relies on alt text to understand images. Good alt text serves both accessibility and AI comprehension.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 95,
+      "question": "What is the purpose of escaping special characters with backslash (\\) in markdown?",
+      "options": [
+        "To make text appear smaller",
+        "To create secure encrypted content",
+        "To display special characters as literal text instead of markdown formatting",
+        "To improve performance"
+      ],
+      "correct": 2,
+      "difficulty": "easy",
+      "topic": "Escaping Special Characters",
+      "pageReference": "60",
+      "explanation": "The backslash (\\) escapes special markdown characters. \\* displays a literal asterisk instead of starting italics. Use for characters like *, #, [, ] when you want them as text, not formatting.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 96,
+      "question": "How do you display a literal # symbol in markdown without creating a heading?",
+      "options": [
+        "Use **#** with bold",
+        "Use \\# with a backslash escape",
+        "Use a space after the # like # text",
+        "It's impossible in markdown"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "Escaping Special Characters",
+      "pageReference": "60",
+      "explanation": "Use \\# to escape the hash symbol, displaying it as literal text. Without the backslash, # creates a heading.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 97,
+      "question": "How many spaces does a single newline require in markdown to create a paragraph break?",
+      "options": [
+        "One space",
+        "Two spaces at end of line",
+        "No spaces—single newline doesn't create paragraph break; you need a blank line (double newline)",
+        "Four spaces"
+      ],
+      "correct": 2,
+      "difficulty": "medium",
+      "topic": "Newline Handling",
+      "pageReference": "61",
+      "explanation": "Markdown requires a BLANK line (double newline) to separate paragraphs. Single newlines don't create breaks—they join lines into the same paragraph.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 98,
+      "question": "In markdown, what is the relationship between text clarity and AI output quality?",
+      "options": [
+        "There is no relationship",
+        "Vague specifications produce excellent code",
+        "Clear, structured text with low ambiguity produces better AI implementation",
+        "AI output quality depends only on the AI model, not on input clarity"
+      ],
+      "correct": 2,
+      "difficulty": "medium",
+      "topic": "Markdown for AI",
+      "pageReference": "57",
+      "explanation": "Clear markdown specifications directly impact AI output quality. Structured text (headings, lists, code examples) removes ambiguity and helps AI generate accurate implementations.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 99,
+      "question": "What does 'structured text' mean in the context of markdown?",
+      "options": [
+        "Text that is decorated with colors",
+        "Text organized with semantic markers (headings, lists, emphasis) that communicate hierarchy and meaning",
+        "Text that follows grammar rules",
+        "Text that is written in plain English"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "Structured vs Unstructured Text",
+      "pageReference": "55",
+      "explanation": "Structured text uses markdown elements (headings, lists, code blocks) to communicate meaning. 'Unstructured' is a paragraph where AI must guess the intent. Structure removes ambiguity.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 100,
+      "question": "Why does Agent Factory emphasize that 'structure is communication' in markdown?",
+      "options": [
+        "Structure just makes text look nicer",
+        "The structure itself (headings, lists, code blocks) communicates intent to AI. Headings say 'this section is about...', lists say 'these are distinct items'",
+        "Structure is only for human readability",
+        "Structure has no impact on AI comprehension"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "Structured vs Unstructured Text",
+      "pageReference": "55",
+      "explanation": "Structure in markdown isn't decorative—it's semantic. ## Features tells AI 'everything here is a feature', creating attention cues that improve comprehension.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 101,
+      "question": "What is 'CommonMark' in the markdown context?",
+      "options": [
+        "A programming language",
+        "The most common way to write markdown",
+        "A standardized, unambiguous specification for markdown syntax created to resolve inconsistencies",
+        "A tool for converting markdown to HTML"
+      ],
+      "correct": 2,
+      "difficulty": "easy",
+      "topic": "Markdown Standards",
+      "pageReference": "54",
+      "explanation": "CommonMark is a formal specification for markdown created in 2014 to establish a reliable common standard and resolve inconsistencies between different markdown implementations.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 102,
+      "question": "What is 'GitHub Flavored Markdown' (GFM) and how does it extend CommonMark?",
+      "options": [
+        "It's the same as CommonMark",
+        "GFM extends CommonMark with tables, task lists (- [ ]), and strikethrough (~~text~~) features specific to GitHub",
+        "GFM is less feature-rich than CommonMark",
+        "GFM is only for GitHub documentation"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "Markdown Standards",
+      "pageReference": "54",
+      "explanation": "GitHub Flavored Markdown (GFM) is based on CommonMark but adds GitHub-specific features: tables, task lists (`- [ ]`), and strikethrough (`~~text~~`). Most tools support GFM.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 103,
+      "question": "What are the three main real-world contexts where you'll use markdown according to Agent Factory?",
+      "options": [
+        "Creating binary files, designing databases, building APIs",
+        "GitHub README files, specifications for AI agents, documentation sites",
+        "Writing essays, creating presentations, sending emails",
+        "Building user interfaces, styling CSS, optimizing performance"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "Real-World Markdown Usage",
+      "pageReference": "57",
+      "explanation": "Three main real-world uses: (1) GitHub READMEs—project documentation, (2) Specifications for AI agents—directing AI what to build, (3) Documentation sites—creating searchable, navigable websites.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 104,
+      "question": "What is the 'Verification Framework' that Agent Factory introduces for checking AI responses?",
+      "options": [
+        "A security protocol for protecting code",
+        "4-step process: (1) Check against what you know, (2) Ask AI to explain reasoning, (3) Test specific claims, (4) Cross-reference when unsure",
+        "A framework for testing markdown syntax",
+        "A database validation system"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "AI Response Verification",
+      "pageReference": "57",
+      "explanation": "The Verification Framework: (1) Compare AI feedback to rules you learned, (2) Ask AI to explain its reasoning, (3) Test claims yourself, (4) Cross-reference with official docs. This prevents blindly trusting AI.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 105,
+      "question": "According to the Verification Framework, what is the critical mindset when working with AI feedback?",
+      "options": [
+        "Always trust AI completely",
+        "Never trust AI at all",
+        "AI is a thinking partner, not an authority. Verify responses before accepting them",
+        "AI mistakes are always obvious"
+      ],
+      "correct": 2,
+      "difficulty": "medium",
+      "topic": "AI Response Verification",
+      "pageReference": "57",
+      "explanation": "Critical mindset: AI is a thinking partner, not an authority. Your job is to verify AI answers against what you know, test claims, and maintain your own judgment.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 106,
+      "question": "Why is 'showing work' important when asking AI to review your markdown?",
+      "options": [
+        "It helps AI generate longer responses",
+        "It's unnecessary for technical reviews",
+        "It forces AI to demonstrate its reasoning (like showing work in math) rather than just stating 'yes, that's correct'",
+        "Showing work only matters in school"
+      ],
+      "correct": 2,
+      "difficulty": "medium",
+      "topic": "AI Response Verification",
+      "pageReference": "57",
+      "explanation": "Asking 'explain your reasoning' forces AI to show its work. This helps you catch mistakes and learn what 'good' looks like—rather than blindly accepting yes/no answers.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 107,
+      "question": "What is 'heading hierarchy' and why is it important in markdown specifications?",
+      "options": [
+        "Heading hierarchy is just a visual preference",
+        "The logical nesting of heading levels (# → ## → ### etc.) that organizes document structure and AI comprehension",
+        "Heading hierarchy only matters for web design",
+        "There is no such thing as heading hierarchy"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "Document Hierarchy",
+      "pageReference": "55",
+      "explanation": "Heading hierarchy organizes documents from broad (#) to specific (###). Proper hierarchy helps AI understand section relationships and document organization.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 108,
+      "question": "What is the 'anti-pattern' of skipping heading levels in markdown (e.g., going from # directly to ###)?",
+      "options": [
+        "Skipping levels is always fine",
+        "Skipping levels breaks hierarchy, confuses readers and AI about document structure, and breaks accessibility for screen readers",
+        "Skipping levels only affects visual appearance",
+        "This practice has no negative consequences"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "Document Hierarchy",
+      "pageReference": "55",
+      "explanation": "Skipping heading levels breaks structure. Readers don't know what Level 3 belongs to without Level 2. AI agents lose structural understanding. Screen readers for accessibility also rely on proper hierarchy.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 109,
+      "question": "How does markdown help with 'token boundaries' for AI processing?",
+      "options": [
+        "Markdown has nothing to do with token processing",
+        "Markdown structure (headings, lists) creates clear token boundaries and 'attention cues' that help AI focus on relevant sections",
+        "Tokens are only relevant for security",
+        "Markdown increases the number of tokens"
+      ],
+      "correct": 1,
+      "difficulty": "advanced",
+      "topic": "AI Processing of Markdown",
+      "pageReference": "55",
+      "explanation": "LLMs process text as tokens. Markdown structure creates natural boundaries and attention cues. A heading like '## Features' tells the model 'everything below relates to features'—improving focus.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 110,
+      "question": "What is a 'nested list' in markdown and when should you use it?",
+      "options": [
+        "A list without any structure",
+        "A list within a list (indented) used to show sub-items or hierarchical relationships",
+        "A list that spans multiple pages",
+        "Lists cannot be nested in markdown"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "Lists",
+      "pageReference": "58",
+      "explanation": "Nested lists show hierarchical relationships. Indenting creates sub-items. Use for: main features with sub-features, installation steps with sub-steps, or any hierarchical requirements.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 111,
+      "question": "How do you create a nested list in markdown?",
+      "options": [
+        "By using larger font sizes",
+        "By using more spaces/tabs for indentation to create sub-levels",
+        "It's impossible to nest lists",
+        "By using different heading levels"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "Lists",
+      "pageReference": "58",
+      "explanation": "Indentation creates nested lists. Typically 2-4 spaces creates the first sub-level. Proper indentation maintains the list structure.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 112,
+      "question": "What distinguishes 'unordered lists' from 'ordered lists' in markdown specifications?",
+      "options": [
+        "They render the same way",
+        "Unordered (-, *, +) for groups of equal items; ordered (1. 2. 3.) when sequence/priority matters",
+        "Ordered lists are more professional than unordered",
+        "There is no practical difference"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "Lists",
+      "pageReference": "58",
+      "explanation": "Choose based on semantics: Unordered lists show equal-priority items (features). Ordered lists show sequence-dependent items (installation steps, priorities). This distinction helps AI understand importance.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 113,
+      "question": "Why does markdown syntax `- [ ]` matter in GitHub Flavored Markdown?",
+      "options": [
+        "It creates italic text",
+        "It creates task lists—checkboxes that track completion status in specifications",
+        "It's only for decorative purposes",
+        "It creates numbered lists"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "GitHub Flavored Markdown",
+      "pageReference": "54",
+      "explanation": "GFM task lists (`- [ ]` and `- [x]`) create interactive checklists. Perfect for specifications: track which requirements are implemented, which are pending.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 114,
+      "question": "In the Task Tracker App practice exercise, what is the iterative building approach?",
+      "options": [
+        "Build the entire spec at once",
+        "Build the spec across 5 lessons: (Lesson 2) headings structure, (Lesson 3) lists + descriptions, (Lesson 4) code blocks + examples, (Lesson 5) links + images",
+        "Each lesson stands alone independently",
+        "The app is only built in one lesson"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "Practice Exercises",
+      "pageReference": "61",
+      "explanation": "The Task Tracker App builds progressively: Lesson 2 adds headings (structure), Lesson 3 adds lists (organization), Lesson 4 adds code blocks (examples), Lesson 5 adds links/images (resources). This shows how complete specs are built.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 115,
+      "question": "What is the purpose of 'validation checklists' in markdown practice exercises?",
+      "options": [
+        "They're optional suggestions",
+        "They provide objective criteria to verify your specification is complete and correct",
+        "They're only for advanced learners",
+        "Validation checklists replace the need for learning markdown"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "Specification Validation",
+      "pageReference": "61",
+      "explanation": "Validation checklists provide measurable criteria: 'Document has one Level 1 heading', 'No levels are skipped', 'Each heading describes its content'. These ensure specifications are complete.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 116,
+      "question": "What is a 'code block' in markdown and when should you use it in specifications?",
+      "options": [
+        "Code blocks are only for programmers",
+        "Code blocks display formatted code or expected output—use to show examples of what the app prints or how to run it",
+        "Code blocks are decorative only",
+        "Code blocks cannot display output examples"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "Code Blocks",
+      "pageReference": "59",
+      "explanation": "Code blocks (triple backticks ```)) show formatted code or expected output. In specs: show sample output, installation commands, or API responses. AI uses these examples to understand requirements.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 117,
+      "question": "What does adding a language name after opening triple backticks (```python) do in markdown?",
+      "options": [
+        "It has no effect",
+        "It enables syntax highlighting for that programming language",
+        "It restricts the code block to only Python code",
+        "It makes the code block larger"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "Code Blocks",
+      "pageReference": "59",
+      "explanation": "Language specifiers (```python, ```javascript, ```bash) enable syntax highlighting—color-coding for readability. Makes code examples clearer for both humans and AI.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 118,
+      "question": "Why is 'descriptive link text' important in markdown specifications?",
+      "options": [
+        "Link text doesn't matter",
+        "Descriptive text (not 'click here') tells readers and AI what each link provides",
+        "Links are only for personal websites",
+        "All link text should be identical"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "Links and Images",
+      "pageReference": "59",
+      "explanation": "Link text should describe where the link goes: '[Python File I/O Tutorial]' not '[link]'. This helps both humans and AI understand resource relationships.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 119,
+      "question": "What is the best practice for using images in README documentation?",
+      "options": [
+        "Use as many images as possible",
+        "Use images strategically: 1 logo/banner, 1-2 key screenshots, diagrams only when words aren't enough",
+        "Avoid images entirely",
+        "Image count doesn't matter"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "Links and Images",
+      "pageReference": "59",
+      "explanation": "Strategic image use: 1 logo at top, 1-2 key screenshots, diagrams for complex concepts. Too many images clutter documentation and slow loading.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 120,
+      "question": "What should alt text for images describe?",
+      "options": [
+        "The filename only",
+        "WHAT the image shows (not just what it IS)—detailed description so AI and screen readers understand content",
+        "Alt text is optional",
+        "Generic descriptions like 'image'"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "Links and Images",
+      "pageReference": "59",
+      "explanation": "Good alt text: 'Task Tracker main menu showing 5 options' (not just 'menu'). Describes content and purpose, helping accessibility and AI comprehension.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 121,
+      "question": "In markdown, how do you display a literal asterisk or bracket that would normally be interpreted as formatting?",
+      "options": [
+        "You cannot escape characters",
+        "Use backslash before the character: \\* for literal asterisk, \\[ for literal bracket",
+        "Use HTML entities",
+        "Put the character in quotes"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "Escaping Special Characters",
+      "pageReference": "60",
+      "explanation": "Backslash escapes special characters: \\* (literal *), \\# (literal #), \\[ (literal [), \\] (literal ]). Use when you want the character displayed as text, not formatting.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 122,
+      "question": "What are the common markdown characters that need escaping (require backslash)?",
+      "options": [
+        "All letters and numbers",
+        "* # [ ] < > ( ) \\ - . !",
+        "Only vowels",
+        "No characters need escaping"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "Escaping Special Characters",
+      "pageReference": "60",
+      "explanation": "Characters that have special markdown meaning need escaping: asterisk (*), hash (#), brackets ([]), angle brackets (<>), backslash (\\), hyphen (-), period (.), exclamation (!).",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 123,
+      "question": "What happens if you write text on a single line with just one newline between lines in markdown?",
+      "options": [
+        "Creates separate paragraphs",
+        "Joins both lines into the SAME paragraph (no paragraph break)",
+        "Creates a page break",
+        "Requires escape characters"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "Newline Handling",
+      "pageReference": "61",
+      "explanation": "Single newline doesn't create paragraph break in markdown. Lines join into one. You need a BLANK LINE (double newline) to separate paragraphs.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 124,
+      "question": "How do you create a paragraph break in markdown?",
+      "options": [
+        "Single newline (Enter once)",
+        "Two consecutive newlines (blank line between paragraphs)",
+        "Use the <br> tag",
+        "Paragraph breaks happen automatically"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "Newline Handling",
+      "pageReference": "61",
+      "explanation": "Create paragraph breaks with blank lines. Press Enter twice between paragraphs. Single Enter joins lines into same paragraph.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 125,
+      "question": "Why is relative path image reference (`./images/diagram.png`) important for AI-native development?",
+      "options": [
+        "Relative paths are just one option",
+        "AI agents often generate diagrams and save them locally. Relative paths prepare you for this workflow",
+        "Relative paths don't work in markdown",
+        "Only absolute paths work in specifications"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "Links and Images",
+      "pageReference": "59",
+      "explanation": "Relative paths (`./images/`) let AI agents generate diagrams, save them to your project folder, and reference them in markdown—enabling AI-generated visual specifications.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 126,
+      "question": "What is the comprehensive learning approach in Chapter 2 of Agent Factory?",
+      "options": [
+        "Learn markdown just for formatting text",
+        "Learn markdown AS A SPECIFICATION LANGUAGE for AI-driven development—understanding structure, intent, and how to communicate with AI",
+        "Markdown is only for documentation",
+        "This chapter doesn't have a learning approach"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "Why Markdown Matters",
+      "pageReference": "56",
+      "explanation": "Chapter 2's approach: Markdown isn't just for text formatting—it's a specification language for working with AI. You learn to write intent clearly so AI can build accurately.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 127,
+      "question": "Why does Agent Factory teach markdown proficiency as a 'universal skill' for AI-native development?",
+      "options": [
+        "Markdown is a programming language",
+        "Markdown bridges human intent and AI execution across all development phases—specs, documentation, prompts, communication",
+        "Markdown is only for professional developers",
+        "This skill doesn't have universal application"
+      ],
+      "correct": 1,
+      "difficulty": "advanced",
+      "topic": "Why Markdown Matters",
+      "pageReference": "54",
+      "explanation": "Markdown is universal because it appears in every AI-native workflow: specifications (Layer 1), documentation (communication), prompts (instruction engineering), GitHub (standard). One skill multiplies across all contexts.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 128,
+      "question": "How does 'structured text' help AI agents make better decisions during implementation?",
+      "options": [
+        "Structure has no impact on AI decisions",
+        "Clear structure with bold/italic emphasis helps AI distinguish hard requirements from optional enhancements, enabling appropriate trade-offs",
+        "AI makes the same decisions regardless of structure",
+        "Structure only affects human readers"
+      ],
+      "correct": 1,
+      "difficulty": "advanced",
+      "topic": "AI Processing of Markdown",
+      "pageReference": "55",
+      "explanation": "When AI sees '**must**' vs '*recommended*', it makes informed trade-off decisions. Structure communicates priorities to AI, enabling more intelligent implementation choices.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 129,
+      "question": "What is the relationship between markdown clarity and development efficiency in Agent Factory?",
+      "options": [
+        "Clarity doesn't affect development speed",
+        "Clear markdown specs reduce ambiguity, enabling faster AI implementation and fewer rounds of revision",
+        "Complexity always requires more time",
+        "Development speed is random"
+      ],
+      "correct": 1,
+      "difficulty": "advanced",
+      "topic": "Why Markdown Matters",
+      "pageReference": "54",
+      "explanation": "Clear, well-structured markdown specifications accelerate development. AI implements faster when specs are unambiguous. Professional teams report 30-50% time savings with structured specs.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 130,
+      "question": "What is the most common mistake when forgetting a space after hash symbols in markdown headings?",
+      "options": [
+        "The heading still works fine",
+        "#NoSpace renders as literal text, not a heading",
+        "Heading still appears but formatted differently",
+        "This causes a syntax error"
+      ],
+      "correct": 1,
+      "difficulty": "easy",
+      "topic": "Common Mistakes",
+      "pageReference": "55",
+      "explanation": "Markdown requires a space after # symbols: `# Heading` (correct), `#Heading` (wrong—renders as text). Always include the space.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 131,
+      "question": "Why should you avoid using multiple Level 1 headings in a single markdown document?",
+      "options": [
+        "Multiple H1s render the same as single H1",
+        "A document should have ONE H1 (document title), then ## for main sections. Multiple H1s break hierarchy and confuse readers/AI",
+        "Multiple H1s are required",
+        "This has no consequences"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "Document Hierarchy",
+      "pageReference": "55",
+      "explanation": "Each document has one title (# H1). Multiple H1s confuse hierarchy. Use ## for main sections. Proper structure helps readers and AI understand document organization.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 132,
+      "question": "What is a 'blockquote' in markdown and how is it created?",
+      "options": [
+        "A code block",
+        "Text preceded by > symbol, used for quoted or highlighted text",
+        "A large bold text",
+        "Blockquotes don't exist in markdown"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "Markdown Syntax",
+      "pageReference": "59",
+      "explanation": "Blockquotes use > symbol: `> quoted text`. Great for highlighting important requirements, warnings, or quoted material in specifications.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 133,
+      "question": "Why would you use markdown tables (a GFM feature) in a specification?",
+      "options": [
+        "Tables are only for spreadsheets",
+        "Tables organize information into rows/columns—perfect for requirements matrices, feature comparison, or structured data in specifications",
+        "Tables don't work in markdown",
+        "Specifications should never use tables"
+      ],
+      "correct": 1,
+      "difficulty": "medium",
+      "topic": "GitHub Flavored Markdown",
+      "pageReference": "54",
+      "explanation": "GFM tables organize complex information: requirements vs status, features vs priority, API endpoints vs methods. Tables make specifications scannable for AI and humans.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 134,
+      "question": "What is 'semantic markdown' and why does Agent Factory emphasize it?",
+      "options": [
+        "It's just formatting text",
+        "Using markdown structure to communicate MEANING—bold means critical, italic means optional, lists mean distinct items. Meaning drives AI decision-making",
+        "Semantic markdown is overly complicated",
+        "Markdown has no semantic value"
+      ],
+      "correct": 1,
+      "difficulty": "advanced",
+      "topic": "Markdown as Intent Layer",
+      "pageReference": "56",
+      "explanation": "Semantic markdown uses structure to encode meaning. Bold (**critical**), italic (*optional*), lists (distinct items). This semantic richness helps AI understand priorities and relationships.",
+      "explanationUrdu": ""
+    },
+    {
+      "id": 135,
+      "question": "According to Agent Factory, what makes markdown 'the universal language between humans and AI'?",
+      "options": [
+        "Markdown is a programming language",
+        "Markdown is human-readable (plain text) AND machine-parseable (structure signals)—bridges both audiences simultaneously",
+        "Markdown is only for human communication",
+        "AI cannot parse markdown"
+      ],
+      "correct": 1,
+      "difficulty": "advanced",
+      "topic": "Why Markdown Matters",
+      "pageReference": "54",
+      "explanation": "Markdown's power: no special software needed for humans to read (plain text), yet AI can parse structure reliably. One format serves dual purpose—that's why it's universal.",
       "explanationUrdu": ""
     }
   ]
